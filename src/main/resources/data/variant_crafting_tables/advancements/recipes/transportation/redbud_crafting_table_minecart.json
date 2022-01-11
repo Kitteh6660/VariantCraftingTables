@@ -1,0 +1,37 @@
+{
+  "parent": "variant_crafting_tables:recipes/root",
+  "rewards": {
+    "recipes": [
+      "variant_crafting_tables:redbud_crafting_table_minecart"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "variant_crafting_tables:redbud_crafting_table_minecart"
+      }
+    },
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "minecraft:minecart" ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_items"
+    ]
+  ],
+  "conditions": [
+    {
+      "type": "variant_crafting_tables:abundance_mod_installed"
+    }
+  ]
+}
