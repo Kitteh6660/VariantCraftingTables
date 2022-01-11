@@ -1,4 +1,4 @@
- b {
+{
     "parent": "item/generated",
     "textures": {
         "layer0": "variant_crafting_tables:item/morado_crafting_table_minecart"
