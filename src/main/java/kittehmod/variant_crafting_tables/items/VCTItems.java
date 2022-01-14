@@ -1,8 +1,5 @@
 package kittehmod.variant_crafting_tables.items;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import javax.annotation.Nullable;
 
 import kittehmod.variant_crafting_tables.VariantCraftingTablesMod;
@@ -11,8 +8,6 @@ import kittehmod.variant_crafting_tables.entities.CraftingTableMinecartEntity.Cr
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.text.TranslationTextComponent;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModList;
@@ -22,9 +17,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class VCTItems
-{
-	private static List<Item> items = new ArrayList<Item>();
-	
+{	
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, VariantCraftingTablesMod.MOD_ID);
 	
 	// Vanilla
@@ -60,7 +53,7 @@ public class VCTItems
 	public static final RegistryObject<Item> BOP_WILLOW_CRAFTING_TABLE = ITEMS.register("bop_willow_crafting_table", () -> new VCTCraftingTableItem(VCTBlocks.BOP_WILLOW_CRAFTING_TABLE.get(), new Item.Properties().tab(conditionallyAddTab("biomesoplenty", getTabWithMatchingName("biomesoplenty")))));
 	
 	public static final RegistryObject<Item> BOP_CHERRY_CRAFTING_TABLE_MINECART = ITEMS.register("bop_cherry_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("biomesoplenty", getTabWithMatchingName("biomesoplenty"))).stacksTo(1), CraftingTableType.BOP_CHERRY));
-	public static final RegistryObject<Item> BOP_DEAD_CRAFTING_TABLE_MINECART = ITEMS.register("dead_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("biomesoplenty", getTabWithMatchingName("biomesoplenty"))).stacksTo(1), CraftingTableType.BOP_DEAD));
+	public static final RegistryObject<Item> BOP_DEAD_CRAFTING_TABLE_MINECART = ITEMS.register("bop_dead_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("biomesoplenty", getTabWithMatchingName("biomesoplenty"))).stacksTo(1), CraftingTableType.BOP_DEAD));
 	public static final RegistryObject<Item> BOP_FIR_CRAFTING_TABLE_MINECART = ITEMS.register("bop_fir_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("biomesoplenty", getTabWithMatchingName("biomesoplenty"))).stacksTo(1), CraftingTableType.BOP_FIR));
 	public static final RegistryObject<Item> BOP_HELLBARK_CRAFTING_TABLE_MINECART = ITEMS.register("bop_hellbark_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("biomesoplenty", getTabWithMatchingName("biomesoplenty"))).stacksTo(1), CraftingTableType.BOP_HELLBARK));
 	public static final RegistryObject<Item> BOP_JACARANDA_CRAFTING_TABLE_MINECART = ITEMS.register("bop_jacaranda_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("biomesoplenty", getTabWithMatchingName("biomesoplenty"))).stacksTo(1), CraftingTableType.BOP_JACARANDA));
@@ -175,6 +168,23 @@ public class VCTItems
 
 	public static final RegistryObject<Item> AZURE_CRAFTING_TABLE_MINECART = ITEMS.register("azure_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("outer_end", ItemGroup.TAB_TRANSPORTATION)).stacksTo(1), CraftingTableType.AZURE));
 	
+	// Prehistoric Fauna
+	public static final RegistryObject<Item> ARAUCARIA_CRAFTING_TABLE = ITEMS.register("araucaria_crafting_table", () -> new VCTCraftingTableItem(VCTBlocks.ARAUCARIA_CRAFTING_TABLE.get(), new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_decoration_tab")))));
+	public static final RegistryObject<Item> HEIDIPHYLLUM_CRAFTING_TABLE = ITEMS.register("heidiphyllum_crafting_table", () -> new VCTCraftingTableItem(VCTBlocks.HEIDIPHYLLUM_CRAFTING_TABLE.get(), new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_decoration_tab")))));
+	public static final RegistryObject<Item> LIRIODENDRITES_CRAFTING_TABLE = ITEMS.register("liriodendrites_crafting_table", () -> new VCTCraftingTableItem(VCTBlocks.LIRIODENDRITES_CRAFTING_TABLE.get(), new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_decoration_tab")))));
+	public static final RegistryObject<Item> METASEQUOIA_CRAFTING_TABLE = ITEMS.register("metasequoia_crafting_table", () -> new VCTCraftingTableItem(VCTBlocks.METASEQUOIA_CRAFTING_TABLE.get(), new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_decoration_tab")))));
+	public static final RegistryObject<Item> PROTOJUNIPEROXYLON_CRAFTING_TABLE = ITEMS.register("protojuniperoxylon_crafting_table", () -> new VCTCraftingTableItem(VCTBlocks.PROTOJUNIPEROXYLON_CRAFTING_TABLE.get(), new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_decoration_tab")))));
+	public static final RegistryObject<Item> PROTOPICEOXYLON_CRAFTING_TABLE = ITEMS.register("protopiceoxylon_crafting_table", () -> new VCTCraftingTableItem(VCTBlocks.PROTOPICEOXYLON_CRAFTING_TABLE.get(), new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_decoration_tab")))));
+	public static final RegistryObject<Item> ZAMITES_CRAFTING_TABLE = ITEMS.register("zamites_crafting_table", () -> new VCTCraftingTableItem(VCTBlocks.ZAMITES_CRAFTING_TABLE.get(), new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_decoration_tab")))));
+
+	public static final RegistryObject<Item> ARAUCARIA_CRAFTING_TABLE_MINECART = ITEMS.register("araucaria_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_misc_tab"))).stacksTo(1), CraftingTableType.ARAUCARIA));
+	public static final RegistryObject<Item> HEIDIPHYLLUM_CRAFTING_TABLE_MINECART = ITEMS.register("heidiphyllum_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_misc_tab"))).stacksTo(1), CraftingTableType.HEIDIPHYLLUM));
+	public static final RegistryObject<Item> LIRIODENDRITES_CRAFTING_TABLE_MINECART = ITEMS.register("liriodendrites_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_misc_tab"))).stacksTo(1), CraftingTableType.LIRIODENDRITES));
+	public static final RegistryObject<Item> METASEQUOIA_CRAFTING_TABLE_MINECART = ITEMS.register("metasequoia_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_misc_tab"))).stacksTo(1), CraftingTableType.METASEQUOIA));
+	public static final RegistryObject<Item> PROTOJUNIPEROXYLON_CRAFTING_TABLE_MINECART = ITEMS.register("protojuniperoxylon_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_misc_tab"))).stacksTo(1), CraftingTableType.PROTOJUNIPEROXYLON));
+	public static final RegistryObject<Item> PROTOPICEOXYLON_CRAFTING_TABLE_MINECART = ITEMS.register("protopiceoxylon_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_misc_tab"))).stacksTo(1), CraftingTableType.PROTOPICEOXYLON));
+	public static final RegistryObject<Item> ZAMITES_CRAFTING_TABLE_MINECART = ITEMS.register("zamites_crafting_table_minecart", () -> new CraftingTableMinecartItem(new Item.Properties().tab(conditionallyAddTab("prehistoricfauna", getTabWithMatchingName("prehistoric_misc_tab"))).stacksTo(1), CraftingTableType.ZAMITES));
+	
 	@Nullable
     private static ItemGroup conditionallyAddTab(String modid, ItemGroup tab) {
     	if (ModList.get().isLoaded(modid)) {
@@ -188,18 +198,15 @@ public class VCTItems
     private static ItemGroup getTabWithMatchingName(String tabName) {
     	ItemGroup tab = null;
     	for (ItemGroup tempTab : ItemGroup.TABS) {
-    		TranslationTextComponent tabComp = (TranslationTextComponent) tempTab.getDisplayName();
-    		if (tabComp.getKey().equalsIgnoreCase("itemGroup." + tabName)) {
-    			tab = tempTab;
-    			break;
+    		if (tempTab.getDisplayName() instanceof TranslationTextComponent) { // Check if it's the correct class to avoid crashes.
+    			TranslationTextComponent tabComp = (TranslationTextComponent) tempTab.getDisplayName();
+	    		if (tabComp.getKey().equalsIgnoreCase("itemGroup." + tabName)) {
+	    			tab = tempTab;
+	    			break;
+	    		}
     		}
     	}
     	return tab;
-    }
-    
-    @OnlyIn(Dist.CLIENT)
-    public static void sortCraftingTablesInTab() {
-    	
     }
     
 	@EventBusSubscriber(modid = VariantCraftingTablesMod.MOD_ID)

@@ -2,14 +2,14 @@
   "parent": "variant_crafting_tables:recipes/root",
   "rewards": {
     "recipes": [
-      "variant_crafting_tables:petrified_crafting_table"
+      "darkerdepths:crafting_table"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "variant_crafting_tables:petrified_crafting_table"
+        "recipe": "darkerdepths:crafting_table"
       }
     },
     "has_items": {

@@ -5,7 +5,6 @@ import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -51,7 +50,7 @@ public class VCTBlocks
 	public static final RegistryObject<Block> TIMEWOOD_CRAFTING_TABLE = BLOCKS.register("timewood_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
 	public static final RegistryObject<Block> TRANSWOOD_CRAFTING_TABLE = BLOCKS.register("transwood_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
 	public static final RegistryObject<Block> TWILIGHT_OAK_CRAFTING_TABLE = BLOCKS.register("twilight_oak_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
-
+	
 	/* Abnormals Mods */
     // Atmospheric
     public static final RegistryObject<Block> ASPEN_CRAFTING_TABLE = BLOCKS.register("aspen_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
@@ -102,6 +101,15 @@ public class VCTBlocks
     // Outer End
  	public static final RegistryObject<Block> AZURE_CRAFTING_TABLE = BLOCKS.register("azure_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
  	
+ 	// Prehistoric Fauna
+    public static final RegistryObject<Block> ARAUCARIA_CRAFTING_TABLE = BLOCKS.register("araucaria_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> HEIDIPHYLLUM_CRAFTING_TABLE = BLOCKS.register("heidiphyllum_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> LIRIODENDRITES_CRAFTING_TABLE = BLOCKS.register("liriodendrites_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> METASEQUOIA_CRAFTING_TABLE = BLOCKS.register("metasequoia_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PROTOJUNIPEROXYLON_CRAFTING_TABLE = BLOCKS.register("protojuniperoxylon_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PROTOPICEOXYLON_CRAFTING_TABLE = BLOCKS.register("protopiceoxylon_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> ZAMITES_CRAFTING_TABLE = BLOCKS.register("zamites_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+ 	
     @EventBusSubscriber(modid = VariantCraftingTablesMod.MOD_ID)
 	public static class RegistrationHandler 
 	{
@@ -118,11 +126,5 @@ public class VCTBlocks
 	    public static void registerBlocks(final RegistryEvent.Register<Block> event) { 
 	    	event.getRegistry().registerAll();
 	    }
-	    
-	    @SubscribeEvent
-	    public static void registerItemBlocks(final RegistryEvent.Register<Item> event) {
-	    	event.getRegistry().registerAll();
-	    }
 	}
-    
 }

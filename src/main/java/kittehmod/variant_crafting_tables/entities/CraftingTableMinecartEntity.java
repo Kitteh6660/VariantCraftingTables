@@ -58,12 +58,6 @@ public class CraftingTableMinecartEntity extends ContainerMinecartEntity impleme
 
 	@Override
 	public ITextComponent getName() {
-		/*if (!this.hasCustomName()) {
-			return this.getCustomName();
-		}
-		else {
-			return VCTCraftingTableBlock.TITLE;
-		}*/
 		return VCTCraftingTableBlock.TITLE;
 	}
 	
@@ -194,6 +188,14 @@ public class CraftingTableMinecartEntity extends ContainerMinecartEntity impleme
 		BROWN_MUSHROOM(VCTBlocks.BROWN_MUSHROOM_CRAFTING_TABLE.get()),
 		RED_MUSHROOM(VCTBlocks.RED_MUSHROOM_CRAFTING_TABLE.get()),
 		GLOWSHROOM(VCTBlocks.GLOWSHROOM_CRAFTING_TABLE.get()),
+		// Prehistoric Fauna
+		ARAUCARIA(VCTBlocks.ARAUCARIA_CRAFTING_TABLE.get()),
+		HEIDIPHYLLUM(VCTBlocks.HEIDIPHYLLUM_CRAFTING_TABLE.get()),
+		LIRIODENDRITES(VCTBlocks.LIRIODENDRITES_CRAFTING_TABLE.get()),
+		METASEQUOIA(VCTBlocks.METASEQUOIA_CRAFTING_TABLE.get()),
+		PROTOJUNIPEROXYLON(VCTBlocks.PROTOJUNIPEROXYLON_CRAFTING_TABLE.get()),
+		PROTOPICEOXYLON(VCTBlocks.PROTOPICEOXYLON_CRAFTING_TABLE.get()),
+		ZAMITES(VCTBlocks.ZAMITES_CRAFTING_TABLE.get()),
 		// Miscellaneous
 		AZURE(VCTBlocks.AZURE_CRAFTING_TABLE.get()),
 		FAIRY_RING_MUSHROOM(VCTBlocks.FAIRY_RING_MUSHROOM_CRAFTING_TABLE.get()),

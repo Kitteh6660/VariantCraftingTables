@@ -14,6 +14,7 @@ import kittehmod.variant_crafting_tables.crafting.conditions.EnhancedMushroomsMo
 import kittehmod.variant_crafting_tables.crafting.conditions.EnvironmentalModInstalledCondition;
 import kittehmod.variant_crafting_tables.crafting.conditions.HabitatModInstalledCondition;
 import kittehmod.variant_crafting_tables.crafting.conditions.OuterEndModInstalledCondition;
+import kittehmod.variant_crafting_tables.crafting.conditions.PrehistoricFaunaModInstalledCondition;
 import kittehmod.variant_crafting_tables.crafting.conditions.TwilightForestModInstalledCondition;
 import kittehmod.variant_crafting_tables.crafting.conditions.UpgradeAquaticModInstalledCondition;
 import kittehmod.variant_crafting_tables.entities.VCTEntities;
@@ -58,10 +59,10 @@ public class VariantCraftingTablesMod
     	CraftingHelper.register(new DarkerDepthsModInstalledCondition.Serializer());
     	CraftingHelper.register(new HabitatModInstalledCondition.Serializer());
     	CraftingHelper.register(new OuterEndModInstalledCondition.Serializer());
+    	CraftingHelper.register(new PrehistoricFaunaModInstalledCondition.Serializer());
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
     	ClientRenderers.initialize();
-    	VCTItems.sortCraftingTablesInTab();
     }
 }

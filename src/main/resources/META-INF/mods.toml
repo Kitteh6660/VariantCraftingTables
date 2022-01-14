@@ -59,7 +59,7 @@ description='''This mod adds the variant Crafting Tables for each of the vanilla
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5,1.17)"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
     
 [[dependencies.variant_crafting_tables]]
@@ -164,5 +164,19 @@ description='''This mod adds the variant Crafting Tables for each of the vanilla
     modId="outer_end"
     mandatory=false
     versionRange="[0.2,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.variant_crafting_tables]]
+    modId="prehistoricfauna"
+    mandatory=false
+    versionRange="[2.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.variant_crafting_tables]]
+    modId="morecraft"
+    mandatory=false
+    versionRange="[1.16.5,)"
     ordering="AFTER"
     side="BOTH"

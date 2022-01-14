@@ -50,22 +50,22 @@ public class VCTCraftingTableBlock extends CraftingTableBlock
     }
     
     @Override
-    public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-    	if (this.material == Material.NETHER_WOOD) {
-    		return -1; // Can't burn.
+    public int getFlammability(BlockState state, IBlockReader getter, BlockPos pos, Direction face) {
+    	if (this.material == Material.WOOD) {
+    		return 20;
     	}
     	else {
-    		return 20;
+    		return -1; // Can't burn.
     	}
     }
     
     @Override
-    public int getFireSpreadSpeed(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-    	if (this.material == Material.NETHER_WOOD) {
-    		return -1; // Can't catch fire.
+    public int getFireSpreadSpeed(BlockState state, IBlockReader getter, BlockPos pos, Direction face) {
+    	if (this.material == Material.WOOD) {
+    		return 5;
     	}
     	else {
-    		return 5;
+    		return -1; // Can't catch fire.
     	}
     }
 }
