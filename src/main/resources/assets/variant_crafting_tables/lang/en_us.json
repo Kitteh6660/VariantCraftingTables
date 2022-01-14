@@ -64,6 +64,14 @@
 
 "block.variant_crafting_tables.azure_crafting_table": "Azure Crafting Table",
 
+"block.variant_crafting_tables.araucaria_crafting_table": "Araucaria Crafting Table",
+"block.variant_crafting_tables.heidiphyllum_crafting_table": "Heidiphyllum Crafting Table",
+"block.variant_crafting_tables.liriodendrites_crafting_table": "Liriodendrites Crafting Table",
+"block.variant_crafting_tables.metasequoia_crafting_table": "Metasequoia Crafting Table",
+"block.variant_crafting_tables.protojuniperoxylon_crafting_table": "Protojuniperoxylon Crafting Table",
+"block.variant_crafting_tables.protopiceoxylon_crafting_table": "Protopiceoxylon Crafting Table",
+"block.variant_crafting_tables.zamites_crafting_table": "Zamites Crafting Table",
+
 "item.variant_crafting_tables.oak_crafting_table_minecart": "Minecart with Oak Crafting Table",
 "item.variant_crafting_tables.spruce_crafting_table_minecart": "Minecart with Spruce Crafting Table",
 "item.variant_crafting_tables.birch_crafting_table_minecart": "Minecart with Birch Crafting Table",
@@ -127,5 +135,14 @@
 
 "item.variant_crafting_tables.fairy_ring_mushroom_crafting_table_minecart": "Minecart with Fairy Ring Mushroom Crafting Table",
 
-"item.variant_crafting_tables.azure_crafting_table_minecart": "Minecart with Azure Crafting Table"
+"item.variant_crafting_tables.azure_crafting_table_minecart": "Minecart with Azure Crafting Table",
+
+"item.variant_crafting_tables.araucaria_crafting_table_minecart": "Minecart with Araucaria Crafting Table",
+"item.variant_crafting_tables.heidiphyllum_crafting_table_minecart": "Minecart with Heidiphyllum Crafting Table",
+"item.variant_crafting_tables.liriodendrites_crafting_table_minecart": "Minecart with Liriodendrites Crafting Table",
+"item.variant_crafting_tables.metasequoia_crafting_table_minecart": "Minecart with Metasequoia Crafting Table",
+"item.variant_crafting_tables.protojuniperoxylon_crafting_table_minecart": "Minecart with Protojuniperoxylon Crafting Table",
+"item.variant_crafting_tables.protopiceoxylon_crafting_table_minecart": "Minecart with Protopiceoxylon Crafting Table",
+"item.variant_crafting_tables.zamites_crafting_table_minecart": "Minecart with Zamites Crafting Table"
+
 }

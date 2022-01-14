@@ -11,6 +11,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.SimpleMenuProvider;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.inventory.ContainerLevelAccess;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.CraftingTableBlock;
@@ -44,27 +45,27 @@ public class VCTCraftingTableBlock extends CraftingTableBlock
     @Override
     public MenuProvider getMenuProvider(BlockState state, Level level, BlockPos pos) {
         return new SimpleMenuProvider((id, inventory, player) -> {
-           return new VCTCraftingMenu(id, inventory, this);
+           return new VCTCraftingMenu(id, inventory, ContainerLevelAccess.create(level, pos), this);
         }, TITLE);
     }
     
     @Override
     public int getFlammability(BlockState state, BlockGetter getter, BlockPos pos, Direction face) {
-    	if (this.material == Material.NETHER_WOOD) {
-    		return -1; // Can't burn.
+    	if (this.material == Material.WOOD) {
+    		return 20;
     	}
     	else {
-    		return 20;
+    		return -1; // Can't burn.
     	}
     }
     
     @Override
     public int getFireSpreadSpeed(BlockState state, BlockGetter getter, BlockPos pos, Direction face) {
-    	if (this.material == Material.NETHER_WOOD) {
-    		return -1; // Can't catch fire.
+    	if (this.material == Material.WOOD) {
+    		return 5;
     	}
     	else {
-    		return 5;
+    		return -1; // Can't catch fire.
     	}
     }
 }

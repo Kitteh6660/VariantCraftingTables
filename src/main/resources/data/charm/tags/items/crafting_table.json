@@ -63,6 +63,14 @@
     
     "variant_crafting_tables:fairy_ring_mushroom_crafting_table",
     
-    "variant_crafting_tables:azure_crafting_table"
+    "variant_crafting_tables:azure_crafting_table",
+    
+    "variant_crafting_tables:araucaria_crafting_table",
+    "variant_crafting_tables:heidiphyllum_crafting_table",
+    "variant_crafting_tables:liriodendrites_crafting_table",
+    "variant_crafting_tables:metasequoia_crafting_table",
+    "variant_crafting_tables:protojuniperoxylon_crafting_table",
+    "variant_crafting_tables:protopiceoxylon_crafting_table",
+    "variant_crafting_tables:zamites_crafting_table"
   ]
 }

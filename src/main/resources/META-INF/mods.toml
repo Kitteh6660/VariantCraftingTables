@@ -54,9 +54,122 @@ description='''This mod adds the variant Crafting Tables for each of the vanilla
     versionRange="[37,)" #mandatory
     ordering="NONE"
     side="BOTH"
+
 [[dependencies.variant_crafting_tables]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.17.1,1.18)"
     ordering="NONE"
+    side="BOTH"
+
+[[dependencies.variant_crafting_tables]]
+    modId="biomesoplenty"
+    mandatory=false
+    versionRange="[1.16.5,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.variant_crafting_tables]]
+    modId="twilightforest"
+    mandatory=false
+    versionRange="[1.16.5,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.variant_crafting_tables]]
+    modId="atmospheric"
+    mandatory=false
+    versionRange="[3.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.variant_crafting_tables]]
+    modId="autumnity"
+    mandatory=false
+    versionRange="[2.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.variant_crafting_tables]]
+    modId="bamboo_blocks"
+    mandatory=false
+    versionRange="[3.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.variant_crafting_tables]]
+    modId="buzzier_bees"
+    mandatory=false
+    versionRange="[3.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.variant_crafting_tables]]
+    modId="endergetic"
+    mandatory=false
+    versionRange="[3.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.variant_crafting_tables]]
+    modId="environmental"
+    mandatory=false
+    versionRange="[1.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.variant_crafting_tables]]
+    modId="upgrade_aquatic"
+    mandatory=false
+    versionRange="[3.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.variant_crafting_tables]]
+    modId="abundance"
+    mandatory=false
+    versionRange="[1.16.5-1.0.5,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.variant_crafting_tables]]
+    modId="bayou_blues"
+    mandatory=false
+    versionRange="[1.16.5-1.0.5,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.variant_crafting_tables]]
+    modId="enhanced_mushrooms"
+    mandatory=false
+    versionRange="[1.16.5-3.0.9,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.variant_crafting_tables]]
+    modId="darkerdepths"
+    mandatory=false
+    versionRange="[1.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.variant_crafting_tables]]
+    modId="habitat"
+    mandatory=false
+    versionRange="[1.0.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.variant_crafting_tables]]
+    modId="outer_end"
+    mandatory=false
+    versionRange="[0.2,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.variant_crafting_tables]]
+    modId="prehistoricfauna"
+    mandatory=false
+    versionRange="[2.1.0,)"
+    ordering="AFTER"
     side="BOTH"

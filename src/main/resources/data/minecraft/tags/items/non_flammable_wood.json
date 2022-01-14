@@ -3,6 +3,7 @@
   "values": [
     "variant_crafting_tables:crimson_crafting_table",
     "variant_crafting_tables:warped_crafting_table",
-    "variant_crafting_tables:bop_hellbark_crafting_table"
+    "variant_crafting_tables:bop_hellbark_crafting_table",
+    "variant_crafting_tables:petrified_crafting_table"
   ]
 }
