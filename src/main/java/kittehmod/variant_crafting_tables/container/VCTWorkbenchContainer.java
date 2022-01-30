@@ -47,6 +47,7 @@ public class VCTWorkbenchContainer extends WorkbenchContainer
    /**
     * Determines whether supplied player can use this container
     */
+	@Override
 	public boolean stillValid(PlayerEntity playerIn) {
 		return stillValid(this.access, playerIn, block);
 	}

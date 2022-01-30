@@ -18,6 +18,9 @@
         "items": [
           {
             "item": "minecraft:minecart"
+          },
+          {
+            "tag": "forge:crafting_tables"
           }
         ]
       }
@@ -31,7 +34,8 @@
   ],
   "conditions": [
     {
-      "type": "variant_crafting_tables:biomesoplenty_mod_installed"
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
     }
   ]
 }

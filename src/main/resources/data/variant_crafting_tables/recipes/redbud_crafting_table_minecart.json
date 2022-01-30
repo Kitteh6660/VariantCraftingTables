@@ -19,7 +19,8 @@
   },
   "conditions": [
     {
-      "type": "variant_crafting_tables:abundance_mod_installed"
+      "type": "forge:mod_loaded",
+      "modid": "abundance"
     }
   ]
 }

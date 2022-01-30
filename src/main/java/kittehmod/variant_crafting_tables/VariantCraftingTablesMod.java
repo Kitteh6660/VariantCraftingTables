@@ -2,25 +2,9 @@ package kittehmod.variant_crafting_tables;
 
 import kittehmod.variant_crafting_tables.blocks.VCTBlocks;
 import kittehmod.variant_crafting_tables.client.ClientRenderers;
-import kittehmod.variant_crafting_tables.crafting.conditions.AbundanceModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.AtmosphericModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.AutumnityModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.BambooBlocksModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.BayouBluesModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.BiomesOPlentyModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.DarkerDepthsModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.EndergeticModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.EnhancedMushroomsModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.EnvironmentalModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.HabitatModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.OuterEndModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.PrehistoricFaunaModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.TwilightForestModInstalledCondition;
-import kittehmod.variant_crafting_tables.crafting.conditions.UpgradeAquaticModInstalledCondition;
 import kittehmod.variant_crafting_tables.entities.VCTEntities;
 import kittehmod.variant_crafting_tables.items.VCTItems;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.common.crafting.CraftingHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -42,24 +26,7 @@ public class VariantCraftingTablesMod
     }
     
     private void setup(final FMLCommonSetupEvent event) {
-    	CraftingHelper.register(new BiomesOPlentyModInstalledCondition.Serializer());
-    	CraftingHelper.register(new TwilightForestModInstalledCondition.Serializer());
-    	
-    	CraftingHelper.register(new AtmosphericModInstalledCondition.Serializer());
-    	CraftingHelper.register(new AutumnityModInstalledCondition.Serializer());
-    	CraftingHelper.register(new BambooBlocksModInstalledCondition.Serializer());
-    	CraftingHelper.register(new EndergeticModInstalledCondition.Serializer());
-    	CraftingHelper.register(new EnvironmentalModInstalledCondition.Serializer());
-    	CraftingHelper.register(new UpgradeAquaticModInstalledCondition.Serializer());
-    	
-    	CraftingHelper.register(new AbundanceModInstalledCondition.Serializer());
-    	CraftingHelper.register(new BayouBluesModInstalledCondition.Serializer());
-    	CraftingHelper.register(new EnhancedMushroomsModInstalledCondition.Serializer());
-    	
-    	CraftingHelper.register(new DarkerDepthsModInstalledCondition.Serializer());
-    	CraftingHelper.register(new HabitatModInstalledCondition.Serializer());
-    	CraftingHelper.register(new OuterEndModInstalledCondition.Serializer());
-    	CraftingHelper.register(new PrehistoricFaunaModInstalledCondition.Serializer());
+    	// Nothing here...
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {

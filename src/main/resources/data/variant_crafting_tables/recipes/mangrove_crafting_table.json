@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "twf_crafting_table",
+  "group": "crafting_table",
   "pattern": [
     "##",
     "##"
   ],
   "key": {
     "#": {
-      "item": "twilightforest:mangrove_planks"
+      "item": "the_wild_update:mangrove_planks"
     }
   },
   "result": {
@@ -15,7 +15,8 @@
   },
   "conditions": [
     {
-      "type": "variant_crafting_tables:twilight_forest_mod_installed"
+      "type": "forge:mod_loaded",
+      "modid": "the_wild_update"
     }
   ]
 }

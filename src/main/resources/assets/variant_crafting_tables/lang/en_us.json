@@ -22,7 +22,7 @@
 
 "block.variant_crafting_tables.canopy_crafting_table": "Canopy Crafting Table",
 "block.variant_crafting_tables.darkwood_crafting_table": "Darkwood Crafting Table",
-"block.variant_crafting_tables.mangrove_crafting_table": "Mangrove Crafting Table",
+"block.variant_crafting_tables.twilight_mangrove_crafting_table": "Mangrove Crafting Table",
 "block.variant_crafting_tables.minewood_crafting_table": "Minewood Crafting Table",
 "block.variant_crafting_tables.sortingwood_crafting_table": "Sortingwood Crafting Table",
 "block.variant_crafting_tables.timewood_crafting_table": "Timewood Crafting Table",
@@ -72,6 +72,8 @@
 "block.variant_crafting_tables.protopiceoxylon_crafting_table": "Protopiceoxylon Crafting Table",
 "block.variant_crafting_tables.zamites_crafting_table": "Zamites Crafting Table",
 
+"block.variant_crafting_tables.mangrove_crafting_table": "Mangrove Crafting Table",
+
 "item.variant_crafting_tables.oak_crafting_table_minecart": "Minecart with Oak Crafting Table",
 "item.variant_crafting_tables.spruce_crafting_table_minecart": "Minecart with Spruce Crafting Table",
 "item.variant_crafting_tables.birch_crafting_table_minecart": "Minecart with Birch Crafting Table",
@@ -95,7 +97,7 @@
 
 "item.variant_crafting_tables.canopy_crafting_table_minecart": "Minecart with Canopy Crafting Table",
 "item.variant_crafting_tables.darkwood_crafting_table_minecart": "Minecart with Darkwood Crafting Table",
-"item.variant_crafting_tables.mangrove_crafting_table_minecart": "Minecart with Mangrove Crafting Table",
+"item.variant_crafting_tables.twilight_mangrove_crafting_table_minecart": "Minecart with Mangrove Crafting Table",
 "item.variant_crafting_tables.minewood_crafting_table_minecart": "Minecart with Minewood Crafting Table",
 "item.variant_crafting_tables.sortingwood_crafting_table_minecart": "Minecart with Sortingwood Crafting Table",
 "item.variant_crafting_tables.timewood_crafting_table_minecart": "Minecart with Timewood Crafting Table",
@@ -143,6 +145,8 @@
 "item.variant_crafting_tables.metasequoia_crafting_table_minecart": "Minecart with Metasequoia Crafting Table",
 "item.variant_crafting_tables.protojuniperoxylon_crafting_table_minecart": "Minecart with Protojuniperoxylon Crafting Table",
 "item.variant_crafting_tables.protopiceoxylon_crafting_table_minecart": "Minecart with Protopiceoxylon Crafting Table",
-"item.variant_crafting_tables.zamites_crafting_table_minecart": "Minecart with Zamites Crafting Table"
+"item.variant_crafting_tables.zamites_crafting_table_minecart": "Minecart with Zamites Crafting Table",
+
+"item.variant_crafting_tables.mangrove_crafting_table_minecart": "Minecart with Mangrove Crafting Table"
 
 }

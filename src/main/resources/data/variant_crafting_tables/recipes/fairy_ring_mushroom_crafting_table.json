@@ -15,7 +15,8 @@
   },
   "conditions": [
     {
-      "type": "variant_crafting_tables:habitat_mod_installed"
+      "type": "forge:mod_loaded",
+      "modid": "habitat"
     }
   ]
 }

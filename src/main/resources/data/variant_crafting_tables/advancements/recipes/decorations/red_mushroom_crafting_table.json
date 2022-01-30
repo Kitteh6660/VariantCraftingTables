@@ -31,7 +31,8 @@
   ],
   "conditions": [
     {
-      "type": "variant_crafting_tables:enhanced_mushrooms_mod_installed"
+      "type": "forge:mod_loaded",
+      "modid": "enhanced_mushrooms"
     }
   ]
 }

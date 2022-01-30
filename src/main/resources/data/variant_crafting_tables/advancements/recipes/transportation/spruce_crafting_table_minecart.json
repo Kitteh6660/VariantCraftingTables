@@ -18,6 +18,9 @@
         "items": [
           {
             "item": "minecraft:minecart"
+          },
+          {
+            "tag": "forge:crafting_tables"
           }
         ]
       }

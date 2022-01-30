@@ -15,7 +15,8 @@
   },
   "conditions": [
     {
-      "type": "variant_crafting_tables:outer_end_mod_installed"
+      "type": "forge:mod_loaded",
+      "modid": "outer_end"
     }
   ]
 }

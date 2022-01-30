@@ -15,7 +15,8 @@
   },
   "conditions": [
     {
-      "type": "variant_crafting_tables:bayou_blues_mod_installed"
+      "type": "forge:mod_loaded",
+      "modid": "bayou_blues"
     }
   ]
 }

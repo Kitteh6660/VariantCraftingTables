@@ -15,7 +15,8 @@
   },
   "conditions": [
     {
-      "type": "variant_crafting_tables:bamboo_blocks_mod_installed"
+      "type": "forge:mod_loaded",
+      "modid": "bamboo_blocks"
     }
   ]
 }

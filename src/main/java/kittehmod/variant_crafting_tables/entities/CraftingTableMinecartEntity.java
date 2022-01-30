@@ -160,7 +160,7 @@ public class CraftingTableMinecartEntity extends ContainerMinecartEntity impleme
 		// Twilight Forest
 		CANOPY(VCTBlocks.CANOPY_CRAFTING_TABLE.get()),
 		DARKWOOD(VCTBlocks.DARKWOOD_CRAFTING_TABLE.get()),
-		MANGROVE(VCTBlocks.MANGROVE_CRAFTING_TABLE.get()),
+		TWILIGHT_MANGROVE(VCTBlocks.TWILIGHT_MANGROVE_CRAFTING_TABLE.get()),
 		MINEWOOD(VCTBlocks.MINEWOOD_CRAFTING_TABLE.get()),
 		SORTINGWOOD(VCTBlocks.SORTINGWOOD_CRAFTING_TABLE.get()),
 		TIMEWOOD(VCTBlocks.TIMEWOOD_CRAFTING_TABLE.get()),
@@ -199,7 +199,8 @@ public class CraftingTableMinecartEntity extends ContainerMinecartEntity impleme
 		// Miscellaneous
 		AZURE(VCTBlocks.AZURE_CRAFTING_TABLE.get()),
 		FAIRY_RING_MUSHROOM(VCTBlocks.FAIRY_RING_MUSHROOM_CRAFTING_TABLE.get()),
-		PETRIFIED(VCTBlocks.PETRIFIED_CRAFTING_TABLE.get());
+		PETRIFIED(VCTBlocks.PETRIFIED_CRAFTING_TABLE.get()),
+		MANGROVE(VCTBlocks.MANGROVE_CRAFTING_TABLE.get());
 
 		private final Block block;
 		private final String name;

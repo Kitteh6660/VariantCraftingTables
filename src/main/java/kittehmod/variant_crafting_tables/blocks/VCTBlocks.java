@@ -44,7 +44,7 @@ public class VCTBlocks
     // Twilight Forest
     public static final RegistryObject<Block> CANOPY_CRAFTING_TABLE = BLOCKS.register("canopy_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
 	public static final RegistryObject<Block> DARKWOOD_CRAFTING_TABLE = BLOCKS.register("darkwood_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
-	public static final RegistryObject<Block> MANGROVE_CRAFTING_TABLE = BLOCKS.register("mangrove_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+	public static final RegistryObject<Block> TWILIGHT_MANGROVE_CRAFTING_TABLE = BLOCKS.register("twilight_mangrove_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
 	public static final RegistryObject<Block> MINEWOOD_CRAFTING_TABLE = BLOCKS.register("minewood_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
 	public static final RegistryObject<Block> SORTINGWOOD_CRAFTING_TABLE = BLOCKS.register("sortingwood_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
 	public static final RegistryObject<Block> TIMEWOOD_CRAFTING_TABLE = BLOCKS.register("timewood_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
@@ -110,6 +110,9 @@ public class VCTBlocks
     public static final RegistryObject<Block> PROTOPICEOXYLON_CRAFTING_TABLE = BLOCKS.register("protopiceoxylon_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> ZAMITES_CRAFTING_TABLE = BLOCKS.register("zamites_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
  	
+    // The Wild Update (Backport)
+	public static final RegistryObject<Block> MANGROVE_CRAFTING_TABLE = BLOCKS.register("mangrove_crafting_table", () -> new VCTCraftingTableBlock(AbstractBlock.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+    
     @EventBusSubscriber(modid = VariantCraftingTablesMod.MOD_ID)
 	public static class RegistrationHandler 
 	{
