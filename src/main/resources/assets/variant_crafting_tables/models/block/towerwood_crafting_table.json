@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+	    "particle": "twilightforest:block/towerwood",
+        "down": "twilightforest:block/towerwood",
+        "up": "variant_crafting_tables:block/towerwood_crafting_table_top",
+        "north": "variant_crafting_tables:block/towerwood_crafting_table_front",
+        "east": "variant_crafting_tables:block/towerwood_crafting_table_side",
+        "south": "variant_crafting_tables:block/towerwood_crafting_table_side",
+        "west": "variant_crafting_tables:block/towerwood_crafting_table_front"
+	}
+}

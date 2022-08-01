@@ -36,7 +36,7 @@ displayName="Variant Crafting Tables" #mandatory
 displayURL="https://www.curseforge.com/minecraft/mc-mods/variant-crafting-tables" #optional
 
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="VCTLogoSquare.png" #optional
+logoFile="variant_crafting_tablesLogoSquare.png" #optional
 
 # A text field displayed in the mod UI
 credits="" #optional
@@ -51,7 +51,7 @@ description='''This mod adds the variant Crafting Tables for each of the vanilla
 [[dependencies.variant_crafting_tables]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[40.0.45,)" #mandatory
+    versionRange="[40.1.0,)" #mandatory
     ordering="NONE"
     side="BOTH"
 
@@ -128,21 +128,21 @@ description='''This mod adds the variant Crafting Tables for each of the vanilla
 [[dependencies.variant_crafting_tables]]
     modId="abundance"
     mandatory=false
-    versionRange="[1.18.2,)"
+    versionRange="[2.0.0,)"
     ordering="AFTER"
     side="BOTH"
     
 [[dependencies.variant_crafting_tables]]
     modId="bayou_blues"
     mandatory=false
-    versionRange="[1.18.2,)"
+    versionRange="[1.1.0,)"
     ordering="AFTER"
     side="BOTH"
     
 [[dependencies.variant_crafting_tables]]
     modId="enhanced_mushrooms"
     mandatory=false
-    versionRange="[1.18.2,)"
+    versionRange="[4.0.0,)"
     ordering="AFTER"
     side="BOTH"
 
@@ -168,9 +168,30 @@ description='''This mod adds the variant Crafting Tables for each of the vanilla
     side="BOTH"
     
 [[dependencies.variant_crafting_tables]]
-    modId="create"
+    modId="phantasm"
     mandatory=false
-    versionRange="[v0.4,)"
+    versionRange="[1.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.variant_crafting_tables]]
+    modId="nethers_exoticism"
+    mandatory=false
+    versionRange="[1.1.8,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.variant_crafting_tables]]
+    modId="undergarden"
+    mandatory=false
+    versionRange="[0.7.0,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.variant_crafting_tables]]
+    modId="snowyspirit"
+    mandatory=false
+    versionRange="[1.8.2-1.3.0,)"
     ordering="AFTER"
     side="BOTH"
     

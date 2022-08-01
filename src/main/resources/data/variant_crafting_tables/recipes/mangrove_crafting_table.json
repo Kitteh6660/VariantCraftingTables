@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "the_wild_update:mangrove_planks"
+      "item": "wildbackport:mangrove_planks"
     }
   },
   "result": {
@@ -16,7 +16,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "the_wild_update"
+      "modid": "wildbackport"
     }
   ]
 }

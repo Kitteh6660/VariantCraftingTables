@@ -7,6 +7,7 @@
     "variant_crafting_tables:jungle_crafting_table",
     "variant_crafting_tables:acacia_crafting_table",
     "variant_crafting_tables:dark_oak_crafting_table",
+    "variant_crafting_tables:mangrove_crafting_table",
     "variant_crafting_tables:crimson_crafting_table",
     "variant_crafting_tables:warped_crafting_table",
     
@@ -30,6 +31,7 @@
     "variant_crafting_tables:timewood_crafting_table",
     "variant_crafting_tables:transwood_crafting_table",
     "variant_crafting_tables:twilight_oak_crafting_table",
+    "variant_crafting_tables:towerwood_crafting_table",
     
     "variant_crafting_tables:aspen_crafting_table",
     "variant_crafting_tables:grimwood_crafting_table",
@@ -62,6 +64,9 @@
     
     "variant_crafting_tables:twisted_crafting_table",
     
+    "variant_crafting_tables:ceiltrunk_crafting_table",
+    "variant_crafting_tables:luzawood_crafting_table",
+    
     "variant_crafting_tables:eco_azalea_crafting_table",
     "variant_crafting_tables:eco_flowering_azalea_crafting_table",
     "variant_crafting_tables:eco_coconut_crafting_table",
@@ -69,7 +74,13 @@
     
     "variant_crafting_tables:petrified_crafting_table",
     
+    "variant_crafting_tables:ebony_crafting_table",
+    "variant_crafting_tables:pream_crafting_table",
+
     "variant_crafting_tables:fairy_ring_mushroom_crafting_table",
+
+    "variant_crafting_tables:jaboticaba_crafting_table",
+    "variant_crafting_tables:ramboutan_crafting_table",
     
     "variant_crafting_tables:azure_crafting_table",
     
@@ -84,6 +95,12 @@
     "variant_crafting_tables:quark_azalea_crafting_table",
     "variant_crafting_tables:quark_blossom_crafting_table",
     
-    "variant_crafting_tables:mangrove_crafting_table"
-  ]
+    "variant_crafting_tables:gingerbread_crafting_table",
+
+    "variant_crafting_tables:stripped_bamboo_crafting_table",
+    
+    "variant_crafting_tables:grongle_crafting_table",
+    "variant_crafting_tables:smogstem_crafting_table",
+    "variant_crafting_tables:wigglewood_crafting_table"
+   ]
 }
