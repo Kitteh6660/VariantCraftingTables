@@ -167,6 +167,13 @@ description='''This mod adds the variant Crafting Tables for each of the vanilla
     ordering="AFTER"
     side="BOTH"
     
+[[dependencies.vct]]
+    modId="create"
+    mandatory=false
+    versionRange="[v0.4,)"
+    ordering="AFTER"
+    side="BOTH"
+    
 [[dependencies.variant_crafting_tables]]
     modId="phantasm"
     mandatory=false
