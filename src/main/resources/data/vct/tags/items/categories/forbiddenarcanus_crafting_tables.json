@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "vct:cherrywood_crafting_table",
+    "vct:edelwood_crafting_table",
+    "vct:fungyss_crafting_table",
+    "vct:mysterywood_crafting_table"
+  ]
+}

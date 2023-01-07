@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+	    "particle": "nourished_end:blocks/verdant_planks",
+        "down": "nourished_end:blocks/verdant_planks",
+        "up": "vct:block/verdant_crafting_table_top",
+        "north": "vct:block/verdant_crafting_table_front",
+        "east": "vct:block/verdant_crafting_table_side",
+        "south": "vct:block/verdant_crafting_table_side",
+        "west": "vct:block/verdant_crafting_table_front"
+	}
+}

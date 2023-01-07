@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+	    "particle": "nourished_end:blocks/stalk_planks_new",
+        "down": "nourished_end:blocks/stalk_planks_new",
+        "up": "vct:block/stalk_crafting_table_top",
+        "north": "vct:block/stalk_crafting_table_front",
+        "east": "vct:block/stalk_crafting_table_side",
+        "south": "vct:block/stalk_crafting_table_side",
+        "west": "vct:block/stalk_crafting_table_front"
+	}
+}

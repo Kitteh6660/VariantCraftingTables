@@ -11,7 +11,7 @@ modLoader="javafml" #mandatory
 loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
-license="MIT License"
+license="MIT License" # License Schmicense
 
 # A URL to refer people to when problems occur with this mod
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
@@ -20,7 +20,7 @@ license="MIT License"
 [[mods]] #mandatory
 
 # The modid of the mod
-modId="variant_crafting_tables" #mandatory
+modId="vct" #mandatory
 
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
@@ -48,119 +48,119 @@ authors="Kitteh6660" #optional
 description='''This mod adds the variant Crafting Tables for each of the vanilla planks as well as certain mods! Also introduces Minecart with Crafting Table for on-your-go crafting needs!'''
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.variant_crafting_tables]] #optional
+[[dependencies.vct]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[40.1.0,)" #mandatory
+    versionRange="[40.1.80,)" #mandatory
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="biomesoplenty"
     mandatory=false
     versionRange="[1.18.2,)"
     ordering="AFTER"
     side="BOTH"
     
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="twilightforest"
     mandatory=false
     versionRange="[1.18.2,)"
     ordering="AFTER"
     side="BOTH"
     
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="atmospheric"
     mandatory=false
     versionRange="[3.0.0,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="autumnity"
     mandatory=false
     versionRange="[2.1.0,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="bamboo_blocks"
     mandatory=false
     versionRange="[3.0.0,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="buzzier_bees"
     mandatory=false
     versionRange="[3.0.0,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="endergetic"
     mandatory=false
     versionRange="[3.0.0,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="environmental"
     mandatory=false
     versionRange="[1.1.0,)"
     ordering="AFTER"
     side="BOTH"
     
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="upgrade_aquatic"
     mandatory=false
     versionRange="[3.0.0,)"
     ordering="AFTER"
     side="BOTH"
     
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="abundance"
     mandatory=false
     versionRange="[2.0.0,)"
     ordering="AFTER"
     side="BOTH"
     
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="bayou_blues"
     mandatory=false
     versionRange="[1.1.0,)"
     ordering="AFTER"
     side="BOTH"
     
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="enhanced_mushrooms"
     mandatory=false
     versionRange="[4.0.0,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="darkerdepths"
     mandatory=false
     versionRange="[1.1.0,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="habitat"
     mandatory=false
     versionRange="[1.0.1,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="outer_end"
     mandatory=false
     versionRange="[0.2,)"
@@ -174,37 +174,65 @@ description='''This mod adds the variant Crafting Tables for each of the vanilla
     ordering="AFTER"
     side="BOTH"
     
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="phantasm"
     mandatory=false
     versionRange="[1.1.0,)"
     ordering="AFTER"
     side="BOTH"
     
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="nethers_exoticism"
     mandatory=false
     versionRange="[1.1.8,)"
     ordering="AFTER"
     side="BOTH"
     
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="undergarden"
     mandatory=false
     versionRange="[0.7.0,)"
     ordering="AFTER"
     side="BOTH"
     
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="snowyspirit"
     mandatory=false
     versionRange="[1.8.2-1.3.0,)"
     ordering="AFTER"
     side="BOTH"
     
-[[dependencies.variant_crafting_tables]]
+[[dependencies.vct]]
     modId="ecologics"
     mandatory=false
     versionRange="[1.5.0,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.vct]]
+    modId="malum"
+    mandatory=false
+    versionRange="[1.18.2,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.vct]]
+    modId="forbidden_arcanus"
+    mandatory=false
+    versionRange="[1.18.2-2.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.vct]]
+    modId="tconstruct"
+    mandatory=false
+    versionRange="[1.18.2,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.vct]]
+    modId="nourished_end"
+    mandatory=false
+    versionRange="[3.0.0,)"
     ordering="AFTER"
     side="BOTH"

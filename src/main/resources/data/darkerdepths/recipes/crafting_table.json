@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "variant_crafting_tables:petrified_crafting_table",
+    "item": "vct:petrified_crafting_table",
     "count": 1
   },
   "conditions": [

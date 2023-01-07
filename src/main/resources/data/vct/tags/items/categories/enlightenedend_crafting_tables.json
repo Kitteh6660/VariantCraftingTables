@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "vct:cerulean_crafting_table",
+    "vct:cosmic_crafting_table",
+    "vct:seldge_crafting_table",
+    "vct:stalk_crafting_table",
+    "vct:verdant_crafting_table"
+  ]
+}

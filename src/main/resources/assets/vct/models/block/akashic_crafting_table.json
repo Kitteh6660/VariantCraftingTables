@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+	    "particle": "hexcasting:block/akashic/planks2",
+        "down": "hexcasting:block/akashic/planks2",
+        "up": "vct:block/akashic_crafting_table_top",
+        "north": "vct:block/akashic_crafting_table_front",
+        "east": "vct:block/akashic_crafting_table_side",
+        "south": "vct:block/akashic_crafting_table_side",
+        "west": "vct:block/akashic_crafting_table_front"
+	}
+}

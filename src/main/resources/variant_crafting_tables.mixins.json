@@ -1,8 +1,8 @@
 {
 	"required": true,
-	"package": "kittehmod.variant_crafting_tables.mixin",
+	"package": "kittehmod.vct.mixin",
 	"compatibilityLevel": "JAVA_17",
-	"refmap": "variant_crafting_tables.refmap.json",
+	"refmap": "vct.refmap.json",
 	"mixins": [
             "CraftingTableBlockMixin"
 	],
