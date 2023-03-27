@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.+'
 }
 
-version = '1.19.2-1.7.2'
+version = '1.19.2-1.8.0'
 group = 'kittehmod.vct' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'VariantCraftingTables'
 
@@ -49,10 +49,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'examplemod'
+            property 'forge.enabledGameTestNamespaces', 'vct'
 
             mods {
-                examplemod {
+                vct {
                     source sourceSets.main
                 }
             }
@@ -66,10 +66,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'examplemod'
+            property 'forge.enabledGameTestNamespaces', 'vct'
 
             mods {
-                examplemod {
+                vct {
                     source sourceSets.main
                 }
             }
@@ -94,10 +94,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'examplemod'
+            property 'forge.enabledGameTestNamespaces', 'vct'
 
             mods {
-                examplemod {
+                vct {
                     source sourceSets.main
                 }
             }
@@ -111,10 +111,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'vct', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                examplemod {
+                vct {
                     source sourceSets.main
                 }
             }

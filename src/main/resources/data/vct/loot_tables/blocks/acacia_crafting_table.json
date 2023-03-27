@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "vct:acacia_crafting_table"
+          "name": "vct:archwood_crafting_table"
         }
       ],
       "conditions": [

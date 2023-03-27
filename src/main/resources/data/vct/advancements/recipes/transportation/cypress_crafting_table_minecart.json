@@ -35,7 +35,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "bayou_blues"
+      "modid": "horizons"
     }
   ]
 }

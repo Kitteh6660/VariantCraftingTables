@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "enhanced_mushrooms:glowshroom_planks"
+      "item": "extendedmushrooms:glowshroom_planks"
     }
   },
   "result": {
@@ -16,7 +16,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "enhanced_mushrooms"
+      "modid": "extendedmushrooms"
     }
   ]
 }

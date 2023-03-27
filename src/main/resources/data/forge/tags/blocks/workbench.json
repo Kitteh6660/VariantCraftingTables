@@ -59,15 +59,17 @@
     
     "vct:brown_mushroom_crafting_table",
     "vct:red_mushroom_crafting_table",
-    "vct:glowshroom_crafting_table",
 
     "vct:ash_crafting_table",
+    "vct:gourdrot_crafting_table",
     
     "vct:aeronos_crafting_table",
     "vct:glacian_crafting_table",
     "vct:strophar_crafting_table",
     
     "vct:twisted_crafting_table",
+    
+    "vct:archwood_crafting_table",
 
     "vct:bm_ancient_oak_crafting_table",
     "vct:bm_blighted_balsa_crafting_table",
@@ -99,18 +101,32 @@
     "vct:ebony_crafting_table",
     "vct:pream_crafting_table",
 
-    "vct:seldge_crafting_table",
+    "vct:congealed_crafting_table",
     "vct:verdant_crafting_table",
+
+    "vct:mushroom_crafting_table",
+    "vct:poisonous_mushroom_crafting_table",
+    "vct:honey_fungus_crafting_table",
+    "vct:glowshroom_crafting_table",
 
     "vct:arcane_edelwood_crafting_table",
     "vct:cherrywood_crafting_table",
     "vct:edelwood_crafting_table",
     "vct:fungyss_crafting_table",
-    "vct:mysterywood_crafting_table",
+    "vct:aurum_crafting_table",
 
     "vct:fairy_ring_mushroom_crafting_table",
 
-    "vct:akashic_crafting_table",
+    "vct:edified_crafting_table",
+    
+    "vct:ft_cherry_crafting_table",
+    "vct:ft_citrus_crafting_table",
+    
+    "vct:soulblight_crafting_table",
+    "vct:whistlecane_crafting_table",
+    
+    "vct:ge_cypress_crafting_table",
+    "vct:ge_muddy_oak_crafting_table",
     
     "vct:hexerei_mahogany_crafting_table",
     "vct:hexerei_willow_crafting_table",
@@ -137,9 +153,27 @@
     "vct:protopiceoxylon_crafting_table",
     "vct:zamites_crafting_table",
     
+    "vct:pyrowood_crafting_table",
+    "vct:rotten_planks_crafting_table",
+    
+    "vct:quark_ancient_crafting_table",
     "vct:quark_azalea_crafting_table",
     "vct:quark_blossom_crafting_table",
     
+    "vct:rue_baobab_crafting_table",
+    "vct:rue_blackwood_crafting_table",
+    "vct:rue_cherry_crafting_table",
+    "vct:rue_cypress_crafting_table",
+    "vct:rue_dead_crafting_table",
+    "vct:rue_eucalyptus_crafting_table",
+    "vct:rue_joshua_crafting_table",
+    "vct:rue_larch_crafting_table",
+    "vct:rue_maple_crafting_table",
+    "vct:rue_mauve_crafting_table",
+    "vct:rue_palm_crafting_table",
+    "vct:rue_pine_crafting_table",
+    "vct:rue_redwood_crafting_table",
+    "vct:rue_willow_crafting_table",    
     "vct:gingerbread_crafting_table",
 
     "vct:bloodshroom_crafting_table",

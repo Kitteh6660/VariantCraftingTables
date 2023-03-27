@@ -89,11 +89,11 @@ public class VCTBlocks
  	// Enhanced Mushrooms
  	public static final RegistryObject<Block> BROWN_MUSHROOM_CRAFTING_TABLE = BLOCKS.register("brown_mushroom_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
  	public static final RegistryObject<Block> RED_MUSHROOM_CRAFTING_TABLE = BLOCKS.register("red_mushroom_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
- 	public static final RegistryObject<Block> GLOWSHROOM_CRAFTING_TABLE = BLOCKS.register("glowshroom_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).noOcclusion().lightLevel((ll) -> { return 11; }).strength(2.5F).sound(SoundType.WOOD)));
 
 	/* Miscellaneous Mods */
  	// Abundant Atmosphere
   	public static final RegistryObject<Block> ASH_CRAFTING_TABLE = BLOCKS.register("ash_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+  	public static final RegistryObject<Block> GOURDROT_CRAFTING_TABLE = BLOCKS.register("gourdrot_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
  	
  	// Ad Astra
   	public static final RegistryObject<Block> AERONOS_CRAFTING_TABLE = BLOCKS.register("aeronos_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
@@ -102,6 +102,9 @@ public class VCTBlocks
  	
  	// Architects Palette
   	public static final RegistryObject<Block> TWISTED_CRAFTING_TABLE = BLOCKS.register("twisted_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+  	
+  	// Ars Nouveau
+  	public static final RegistryObject<Block> ARCHWOOD_CRAFTING_TABLE = BLOCKS.register("archwood_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));  	
   	
   	// Biome Makeover
   	public static final RegistryObject<Block> BM_ANCIENT_OAK_CRAFTING_TABLE = BLOCKS.register("bm_ancient_oak_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
@@ -142,24 +145,39 @@ public class VCTBlocks
  	public static final RegistryObject<Block> PREAM_CRAFTING_TABLE = BLOCKS.register("pream_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
  	
  	// Enlightened End
- 	// public static final RegistryObject<Block> CERULEAN_CRAFTING_TABLE = BLOCKS.register("cerulean_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
- 	// public static final RegistryObject<Block> COSMIC_CRAFTING_TABLE = BLOCKS.register("cosmic_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
- 	public static final RegistryObject<Block> SELDGE_CRAFTING_TABLE = BLOCKS.register("seldge_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD).noOcclusion()));
- 	// public static final RegistryObject<Block> STALK_CRAFTING_TABLE = BLOCKS.register("stalk_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+ 	public static final RegistryObject<Block> CONGEALED_CRAFTING_TABLE = BLOCKS.register("congealed_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD).noOcclusion()));
  	public static final RegistryObject<Block> VERDANT_CRAFTING_TABLE = BLOCKS.register("verdant_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	
  	
+ 	// Extended Mushrooms
+ 	public static final RegistryObject<Block> MUSHROOM_CRAFTING_TABLE = BLOCKS.register("mushroom_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD).noOcclusion()));
+ 	public static final RegistryObject<Block> POISONOUS_MUSHROOM_CRAFTING_TABLE = BLOCKS.register("poisonous_mushroom_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD).noOcclusion()));
+ 	public static final RegistryObject<Block> HONEY_FUNGUS_CRAFTING_TABLE = BLOCKS.register("honey_fungus_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD).noOcclusion()));
+ 	public static final RegistryObject<Block> GLOWSHROOM_CRAFTING_TABLE = BLOCKS.register("glowshroom_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).lightLevel((ll) -> { return 11; }).strength(2.5F).sound(SoundType.WOOD)));
+
  	// Forbidden & Arcanus
  	public static final RegistryObject<Block> ARCANE_EDELWOOD_CRAFTING_TABLE = BLOCKS.register("arcane_edelwood_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
  	public static final RegistryObject<Block> CHERRYWOOD_CRAFTING_TABLE = BLOCKS.register("cherrywood_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
  	public static final RegistryObject<Block> EDELWOOD_CRAFTING_TABLE = BLOCKS.register("edelwood_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
  	public static final RegistryObject<Block> FUNGYSS_CRAFTING_TABLE = BLOCKS.register("fungyss_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
- 	public static final RegistryObject<Block> MYSTERYWOOD_CRAFTING_TABLE = BLOCKS.register("mysterywood_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+ 	public static final RegistryObject<Block> AURUM_CRAFTING_TABLE = BLOCKS.register("aurum_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+ 	
+ 	// Fruit Trees
+ 	public static final RegistryObject<Block> FT_CHERRY_CRAFTING_TABLE = BLOCKS.register("ft_cherry_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	
+ 	public static final RegistryObject<Block> FT_CITRUS_CRAFTING_TABLE = BLOCKS.register("ft_citrus_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	
+ 	// Gardens of the Dead
+ 	public static final RegistryObject<Block> SOULBLIGHT_CRAFTING_TABLE = BLOCKS.register("soulblight_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.NETHER_WOOD).strength(2.5F).sound(SoundType.WOOD))); 	
+ 	public static final RegistryObject<Block> WHISTLECANE_CRAFTING_TABLE = BLOCKS.register("whistlecane_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.NETHER_WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	
+ 	// Good Ending
+ 	public static final RegistryObject<Block> GE_CYPRESS_CRAFTING_TABLE = BLOCKS.register("ge_cypress_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	
+ 	public static final RegistryObject<Block> GE_MUDDY_OAK_CRAFTING_TABLE = BLOCKS.register("ge_muddy_oak_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
  	
  	// Habitat
  	public static final RegistryObject<Block> FAIRY_RING_MUSHROOM_CRAFTING_TABLE = BLOCKS.register("fairy_ring_mushroom_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
 
  	// Hexcasting
- 	public static final RegistryObject<Block> AKASHIC_CRAFTING_TABLE = BLOCKS.register("akashic_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	
+ 	public static final RegistryObject<Block> EDIFIED_CRAFTING_TABLE = BLOCKS.register("edified_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	
  	
  	// Hexerei
  	public static final RegistryObject<Block> HEXEREI_MAHOGANY_CRAFTING_TABLE = BLOCKS.register("hexerei_mahogany_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	
@@ -191,10 +209,31 @@ public class VCTBlocks
     public static final RegistryObject<Block> PROTOPICEOXYLON_CRAFTING_TABLE = BLOCKS.register("protopiceoxylon_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> ZAMITES_CRAFTING_TABLE = BLOCKS.register("zamites_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
  	
+    // Pyromancy
+ 	public static final RegistryObject<Block> PYROWOOD_CRAFTING_TABLE = BLOCKS.register("pyrowood_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.NETHER_WOOD).strength(2.5F).sound(SoundType.WOOD)));
+ 	public static final RegistryObject<Block> ROTTEN_PLANKS_CRAFTING_TABLE = BLOCKS.register("rotten_planks_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+    
   	// Quark
+ 	public static final RegistryObject<Block> QUARK_ANCIENT_CRAFTING_TABLE = BLOCKS.register("quark_ancient_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
  	public static final RegistryObject<Block> QUARK_AZALEA_CRAFTING_TABLE = BLOCKS.register("quark_azalea_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
  	public static final RegistryObject<Block> QUARK_BLOSSOM_CRAFTING_TABLE = BLOCKS.register("quark_blossom_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
     
+ 	// Regions Unexplored
+ 	public static final RegistryObject<Block> RUE_BAOBAB_CRAFTING_TABLE = BLOCKS.register("rue_baobab_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	public static final RegistryObject<Block> RUE_BLACKWOOD_CRAFTING_TABLE = BLOCKS.register("rue_blackwood_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	public static final RegistryObject<Block> RUE_CHERRY_CRAFTING_TABLE = BLOCKS.register("rue_cherry_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	public static final RegistryObject<Block> RUE_CYPRESS_CRAFTING_TABLE = BLOCKS.register("rue_cypress_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	public static final RegistryObject<Block> RUE_DEAD_CRAFTING_TABLE = BLOCKS.register("rue_dead_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	public static final RegistryObject<Block> RUE_EUCALYPTUS_CRAFTING_TABLE = BLOCKS.register("rue_eucalyptus_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	public static final RegistryObject<Block> RUE_JOSHUA_CRAFTING_TABLE = BLOCKS.register("rue_joshua_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	public static final RegistryObject<Block> RUE_LARCH_CRAFTING_TABLE = BLOCKS.register("rue_larch_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	public static final RegistryObject<Block> RUE_MAPLE_CRAFTING_TABLE = BLOCKS.register("rue_maple_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	public static final RegistryObject<Block> RUE_MAUVE_CRAFTING_TABLE = BLOCKS.register("rue_mauve_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	public static final RegistryObject<Block> RUE_PALM_CRAFTING_TABLE = BLOCKS.register("rue_palm_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	public static final RegistryObject<Block> RUE_PINE_CRAFTING_TABLE = BLOCKS.register("rue_pine_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	public static final RegistryObject<Block> RUE_REDWOOD_CRAFTING_TABLE = BLOCKS.register("rue_redwood_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+ 	public static final RegistryObject<Block> RUE_WILLOW_CRAFTING_TABLE = BLOCKS.register("rue_willow_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD))); 	 	
+
  	// Silent Gear
  	public static final RegistryObject<Block> SG_NETHERWOOD_CRAFTING_TABLE = BLOCKS.register("sg_netherwood_crafting_table", () -> new VCTCraftingTableBlock(Block.Properties.of(Material.NETHER_WOOD).strength(2.5F).sound(SoundType.WOOD))); 	
  	

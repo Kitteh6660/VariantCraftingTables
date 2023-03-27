@@ -20,13 +20,22 @@ public class VCTUpdater
 		for (Mapping<Block> entry : map) {
 			// Update to remap after removal of three crafting tables.
 			if (entry.getKey().getPath().equalsIgnoreCase("cerulean_crafting_table")) {
-				entry.remap(VCTBlocks.SELDGE_CRAFTING_TABLE.get());
+				entry.remap(VCTBlocks.CONGEALED_CRAFTING_TABLE.get());
 			}
 			if (entry.getKey().getPath().equalsIgnoreCase("cosmic_crafting_table")) {
-				entry.remap(VCTBlocks.SELDGE_CRAFTING_TABLE.get());
+				entry.remap(VCTBlocks.CONGEALED_CRAFTING_TABLE.get());
 			}
 			if (entry.getKey().getPath().equalsIgnoreCase("stalk_crafting_table")) {
-				entry.remap(VCTBlocks.SELDGE_CRAFTING_TABLE.get());
+				entry.remap(VCTBlocks.CONGEALED_CRAFTING_TABLE.get());
+			}
+			if (entry.getKey().getPath().equalsIgnoreCase("seldge_crafting_table")) {
+				entry.remap(VCTBlocks.CONGEALED_CRAFTING_TABLE.get());
+			}
+			if (entry.getKey().getPath().equalsIgnoreCase("akashic_crafting_table")) {
+				entry.remap(VCTBlocks.EDIFIED_CRAFTING_TABLE.get());
+			}
+			if (entry.getKey().getPath().equalsIgnoreCase("mysterywood_crafting_table")) {
+				entry.remap(VCTBlocks.AURUM_CRAFTING_TABLE.get());
 			}
 		}
 	}
@@ -36,22 +45,37 @@ public class VCTUpdater
 		List<Mapping<Item>> map = event.getMappings(VCTItems.ITEMS.getRegistryKey(), VariantCraftingTablesMod.MOD_ID);
 		for (Mapping<Item> entry : map) {
 			if (entry.getKey().getPath().equalsIgnoreCase("cerulean_crafting_table")) {
-				entry.remap(VCTItems.SELDGE_CRAFTING_TABLE.get());
+				entry.remap(VCTItems.CONGEALED_CRAFTING_TABLE.get());
 			}
 			if (entry.getKey().getPath().equalsIgnoreCase("cosmic_crafting_table")) {
-				entry.remap(VCTItems.SELDGE_CRAFTING_TABLE.get());
+				entry.remap(VCTItems.CONGEALED_CRAFTING_TABLE.get());
 			}
 			if (entry.getKey().getPath().equalsIgnoreCase("stalk_crafting_table")) {
-				entry.remap(VCTItems.SELDGE_CRAFTING_TABLE.get());
+				entry.remap(VCTItems.CONGEALED_CRAFTING_TABLE.get());
+			}
+			if (entry.getKey().getPath().equalsIgnoreCase("seldge_crafting_table")) {
+				entry.remap(VCTItems.CONGEALED_CRAFTING_TABLE.get());
+			}
+			if (entry.getKey().getPath().equalsIgnoreCase("mysterywood_crafting_table")) {
+				entry.remap(VCTItems.AURUM_CRAFTING_TABLE.get());
 			}
 			if (entry.getKey().getPath().equalsIgnoreCase("cerulean_crafting_table_minecart")) {
-				entry.remap(VCTItems.SELDGE_CRAFTING_TABLE_MINECART.get());
+				entry.remap(VCTItems.CONGEALED_CRAFTING_TABLE_MINECART.get());
 			}
 			if (entry.getKey().getPath().equalsIgnoreCase("cosmic_crafting_table_minecart")) {
-				entry.remap(VCTItems.SELDGE_CRAFTING_TABLE_MINECART.get());
+				entry.remap(VCTItems.CONGEALED_CRAFTING_TABLE_MINECART.get());
 			}
 			if (entry.getKey().getPath().equalsIgnoreCase("stalk_crafting_table_minecart")) {
-				entry.remap(VCTItems.SELDGE_CRAFTING_TABLE_MINECART.get());
+				entry.remap(VCTItems.CONGEALED_CRAFTING_TABLE_MINECART.get());
+			}
+			if (entry.getKey().getPath().equalsIgnoreCase("seldge_crafting_table_minecart")) {
+				entry.remap(VCTItems.CONGEALED_CRAFTING_TABLE_MINECART.get());
+			}
+			if (entry.getKey().getPath().equalsIgnoreCase("akashic_crafting_table_minecart")) {
+				entry.remap(VCTItems.EDIFIED_CRAFTING_TABLE_MINECART.get());
+			}
+			if (entry.getKey().getPath().equalsIgnoreCase("mysterywood_crafting_table_minecart")) {
+				entry.remap(VCTItems.AURUM_CRAFTING_TABLE_MINECART.get());
 			}
 		}
 	}

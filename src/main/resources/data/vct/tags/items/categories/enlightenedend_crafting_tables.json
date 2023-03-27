@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "vct:seldge_crafting_table",
+    "vct:congealed_crafting_table",
     "vct:verdant_crafting_table"
   ]
 }

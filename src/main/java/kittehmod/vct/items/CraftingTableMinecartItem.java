@@ -8,8 +8,11 @@ import net.minecraft.core.BlockSource;
 import net.minecraft.core.Direction;
 import net.minecraft.core.dispenser.DefaultDispenseItemBehavior;
 import net.minecraft.core.dispenser.DispenseItemBehavior;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.UseOnContext;
@@ -72,7 +75,6 @@ public class CraftingTableMinecartItem extends Item
 			if (stack.hasCustomHoverName()) {
 				minecartentity.setCustomName(stack.getHoverName());
 			}
-
 			world.addFreshEntity(minecartentity);
 			stack.shrink(1);
 			return stack;
@@ -105,6 +107,7 @@ public class CraftingTableMinecartItem extends Item
 		Level level = context.getLevel();
 		BlockPos blockpos = context.getClickedPos();
 		BlockState blockstate = level.getBlockState(blockpos);
+		Player player = context.getPlayer();
 		if (!blockstate.is(BlockTags.RAILS)) {
 			return InteractionResult.FAIL;
 		} else {
@@ -123,9 +126,11 @@ public class CraftingTableMinecartItem extends Item
 				}
 
 				level.addFreshEntity(minecartentity);
-				level.gameEvent(GameEvent.ENTITY_PLACE, blockpos, GameEvent.Context.of(context.getPlayer(), level.getBlockState(blockpos.below())));
+				level.gameEvent(GameEvent.ENTITY_PLACE, blockpos, GameEvent.Context.of(player, level.getBlockState(blockpos.below())));
 			}
-
+			else {
+				level.playSound(player, blockpos.getX(), blockpos.getY(), blockpos.getZ(), SoundEvents.MINECART_RIDING, SoundSource.NEUTRAL, 0.5F, 0.5F); //Workaround for lack of sound.
+			}
 			itemstack.shrink(1);
 			return InteractionResult.sidedSuccess(level.isClientSide);
 		}

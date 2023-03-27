@@ -62,6 +62,7 @@
 "block.vct.glowshroom_crafting_table": "Glowshroom Crafting Table",
 
 "block.vct.ash_crafting_table": "Ash Crafting Table",
+"block.vct.gourdrot_crafting_table": "Gourdrot Crafting Table",
 
 "block.vct.aeronos_crafting_table": "Aeronos Crafting Table",
 "block.vct.glacian_crafting_table": "Glacian Crafting Table",
@@ -101,7 +102,7 @@
 
 "block.vct.cerulean_crafting_table": "Cerulean Crafting Table (Legacy)",
 "block.vct.cosmic_crafting_table": "Cosmic Crafting Table (Legacy)",
-"block.vct.seldge_crafting_table": "Congealed Crafting Table",
+"block.vct.congealed_crafting_table": "Congealed Crafting Table",
 "block.vct.stalk_crafting_table": "Stalk Crafting Table (Legacy)",
 "block.vct.verdant_crafting_table": "Ebony Crafting Table",
 
@@ -109,17 +110,23 @@
 "block.vct.cherrywood_crafting_table": "Cherry Crafting Table",
 "block.vct.edelwood_crafting_table": "Edelwood Crafting Table",
 "block.vct.fungyss_crafting_table": "Fungyss Crafting Table",
-"block.vct.mysterywood_crafting_table": "Aurum Crafting Table",
+"block.vct.aurum_crafting_table": "Aurum Crafting Table",
+
+"block.vct.ge_cypress_crafting_table": "Cypress Crafting Table",
+"block.vct.ge_muddy_oak_crafting_table": "Muddy Oak Crafting Table",
 
 "block.vct.fairy_ring_mushroom_crafting_table": "Fairy Ring Mushroom Crafting Table",
 
-"block.vct.akashic_crafting_table": "Edified Crafting Table",
+"block.vct.edified_crafting_table": "Edified Crafting Table",
 
 "block.vct.hexerei_mahogany_crafting_table": "Mahogany Crafting Table",
 "block.vct.hexerei_willow_crafting_table": "Willow Crafting Table",
 
 "block.vct.runewood_crafting_table": "Runewood Crafting Table",
 "block.vct.soulwood_crafting_table": "Soulwood Crafting Table",
+
+"block.vct.pyrowood_crafting_table": "Pyrowood Crafting Table",
+"block.vct.rotten_planks_crafting_table": "Rotten Planks Crafting Table",
 
 "block.vct.netherwood_crafting_table": "Netherwood Crafting Table",
 
@@ -138,6 +145,7 @@
 "block.vct.protopiceoxylon_crafting_table": "Protopiceoxylon Crafting Table",
 "block.vct.zamites_crafting_table": "Zamites Crafting Table",
 
+"block.vct.quark_ancient_crafting_table": "Ancient Crafting Table",
 "block.vct.quark_azalea_crafting_table": "Azalea Crafting Table",
 "block.vct.quark_blossom_crafting_table": "Blossom Crafting Table",
 
@@ -263,7 +271,7 @@
 
 "item.vct.cerulean_crafting_table_minecart": "Minecart with Cerulean Crafting Table (Legacy)",
 "item.vct.cosmic_crafting_table_minecart": "Minecart with Cosmic Crafting Table (Legacy)",
-"item.vct.seldge_crafting_table_minecart": "Minecart with Congealed Crafting Table",
+"item.vct.congealed_crafting_table_minecart": "Minecart with Congealed Crafting Table",
 "item.vct.stalk_crafting_table_minecart": "Minecart with Stalk Crafting Table (Legacy)",
 "item.vct.verdant_crafting_table_minecart": "Minecart with Ebony Crafting Table",
 
@@ -271,11 +279,11 @@
 "item.vct.cherrywood_crafting_table_minecart": "Minecart with Cherry Crafting Table",
 "item.vct.edelwood_crafting_table_minecart": "Minecart with Edelwood Crafting Table",
 "item.vct.fungyss_crafting_table_minecart": "Minecart with Fungyss Crafting Table",
-"item.vct.mysterywood_crafting_table_minecart": "Minecart with Aurum Crafting Table",
+"item.vct.aurum_crafting_table_minecart": "Minecart with Aurum Crafting Table",
 
 "item.vct.fairy_ring_mushroom_crafting_table_minecart": "Minecart with Fairy Ring Mushroom Crafting Table",
 
-"item.vct.akashic_crafting_table_minecart": "Minecart with Edified Crafting Table",
+"item.vct.edified_crafting_table_minecart": "Minecart with Edified Crafting Table",
 
 "item.vct.hexerei_mahogany_crafting_table_minecart": "Minecart with Mahogany Crafting Table",
 "item.vct.hexerei_willow_crafting_table_minecart": "Minecart with Willow Crafting Table",

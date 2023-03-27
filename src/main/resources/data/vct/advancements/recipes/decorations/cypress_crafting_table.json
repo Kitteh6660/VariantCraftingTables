@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "items": [ "bayou_blues:cypress_planks" ]
+            "items": [ "horizons:cypress_planks" ]
           }
         ]
       }
@@ -32,7 +32,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "bayou_blues"
+      "modid": "horizons"
     }
   ]
 }

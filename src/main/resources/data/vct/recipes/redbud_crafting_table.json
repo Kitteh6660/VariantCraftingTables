@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "abundance:redbud_planks"
+      "item": "horizons:redbud_planks"
     }
   },
   "result": {
@@ -16,7 +16,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "abundance"
+      "modid": "horizons"
     }
   ]
 }

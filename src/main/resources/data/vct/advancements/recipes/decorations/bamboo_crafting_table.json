@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "items": [ "bamboo_blocks:bamboo_planks" ]
+            "items": [ "quark:bamboo_planks" ]
           }
         ]
       }
@@ -32,7 +32,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "bamboo_blocks"
+      "modid": "quark"
     }
   ]
 }

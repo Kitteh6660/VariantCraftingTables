@@ -1,6 +1,6 @@
 {
-  "entity.crafting_table_minecart.riding": {
-    "subtitle": "subtitles.entity.minecart.riding ",
+  "entity.vct.crafting_table_minecart.riding": {
+    "subtitle": "subtitles.entity.minecart.riding",
     "sounds": [
       {
         "name": "entity.minecart.riding",

@@ -1,8 +1,8 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-	    "particle": "abundance:block/redbud_planks",
-        "down": "abundance:block/redbud_planks",
+	    "particle": "horizons:block/redbud_planks",
+        "down": "horizons:block/redbud_planks",
         "up": "vct:block/redbud_crafting_table_top",
         "north": "vct:block/redbud_crafting_table_front",
         "east": "vct:block/redbud_crafting_table_side",

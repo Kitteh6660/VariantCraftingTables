@@ -1,8 +1,8 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-	    "particle": "one_twenty_backport:blocks/bamboo_planks",
-        "down": "one_twenty_backport:blocks/bamboo_planks",
+	    "particle": "quark:block/bamboo_planks",
+        "down": "quark:block/bamboo_planks",
         "up": "vct:block/bamboo_crafting_table_top",
         "north": "vct:block/bamboo_crafting_table_front",
         "east": "vct:block/bamboo_crafting_table_side",

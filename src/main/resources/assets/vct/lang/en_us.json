@@ -59,15 +59,17 @@
 
 "block.vct.brown_mushroom_crafting_table": "Brown Mushroom Crafting Table",
 "block.vct.red_mushroom_crafting_table": "Red Mushroom Crafting Table",
-"block.vct.glowshroom_crafting_table": "Glowshroom Crafting Table",
 
 "block.vct.ash_crafting_table": "Ash Crafting Table",
+"block.vct.gourdrot_crafting_table": "Gourdrot Crafting Table",
 
 "block.vct.aeronos_crafting_table": "Aeronos Crafting Table",
 "block.vct.glacian_crafting_table": "Glacian Crafting Table",
 "block.vct.strophar_crafting_table": "Strophar Crafting Table",
 
 "block.vct.twisted_crafting_table": "Twisted Crafting Table",
+
+"block.vct.archwood_crafting_table": "Archwood Crafting Table",
 
 "block.vct.bm_ancient_oak_crafting_table": "Ancient Oak Crafting Table",
 "block.vct.bm_blighted_balsa_crafting_table": "Blighted Balsa Crafting Table",
@@ -99,21 +101,32 @@
 "block.vct.ebony_crafting_table": "Ebony Crafting Table",
 "block.vct.pream_crafting_table": "Pream Crafting Table",
 
-"block.vct.cerulean_crafting_table": "Cerulean Crafting Table (Legacy)",
-"block.vct.cosmic_crafting_table": "Cosmic Crafting Table (Legacy)",
-"block.vct.seldge_crafting_table": "Congealed Crafting Table",
-"block.vct.stalk_crafting_table": "Stalk Crafting Table (Legacy)",
+"block.vct.congealed_crafting_table": "Congealed Crafting Table",
 "block.vct.verdant_crafting_table": "Ebony Crafting Table",
+
+"block.vct.mushroom_crafting_table": "Mushroom Crafting Table",
+"block.vct.poisonous_mushroom_crafting_table": "Poisonous Mushroom Crafting Table",
+"block.vct.honey_fungus_crafting_table": "Honey Fungus Crafting Table",
+"block.vct.glowshroom_crafting_table": "Glowshroom Crafting Table",
 
 "block.vct.arcane_edelwood_crafting_table": "Arcane Edelwood Crafting Table",
 "block.vct.cherrywood_crafting_table": "Cherry Crafting Table",
 "block.vct.edelwood_crafting_table": "Edelwood Crafting Table",
 "block.vct.fungyss_crafting_table": "Fungyss Crafting Table",
-"block.vct.mysterywood_crafting_table": "Aurum Crafting Table",
+"block.vct.aurum_crafting_table": "Aurum Crafting Table",
+
+"block.vct.ft_cherry_crafting_table": "Cherry Crafting Table",
+"block.vct.ft_citrus_crafting_table": "Citrus Crafting Table",
+
+"block.vct.soulblight_crafting_table": "Soulblight Crafting Table",
+"block.vct.whistlecane_crafting_table": "Whistlecane Crafting Table",
+
+"block.vct.ge_cypress_crafting_table": "Cypress Crafting Table",
+"block.vct.ge_muddy_oak_crafting_table": "Muddy Oak Crafting Table",
 
 "block.vct.fairy_ring_mushroom_crafting_table": "Fairy Ring Mushroom Crafting Table",
 
-"block.vct.akashic_crafting_table": "Edified Crafting Table",
+"block.vct.edified_crafting_table": "Edified Crafting Table",
 
 "block.vct.hexerei_mahogany_crafting_table": "Mahogany Crafting Table",
 "block.vct.hexerei_willow_crafting_table": "Willow Crafting Table",
@@ -138,8 +151,27 @@
 "block.vct.protopiceoxylon_crafting_table": "Protopiceoxylon Crafting Table",
 "block.vct.zamites_crafting_table": "Zamites Crafting Table",
 
+"block.vct.pyrowood_crafting_table": "Pyrowood Crafting Table",
+"block.vct.rotten_planks_crafting_table": "Rotten Planks Crafting Table",
+
+"block.vct.quark_ancient_crafting_table": "Ancient Crafting Table",
 "block.vct.quark_azalea_crafting_table": "Azalea Crafting Table",
 "block.vct.quark_blossom_crafting_table": "Blossom Crafting Table",
+
+"block.vct.rue_baobab_crafting_table": "Baobab Crafting Table",
+"block.vct.rue_blackwood_crafting_table": "Blackwood Crafting Table",
+"block.vct.rue_cherry_crafting_table": "Cherry Crafting Table",
+"block.vct.rue_cypress_crafting_table": "Cypress Crafting Table",
+"block.vct.rue_dead_crafting_table": "Dead Crafting Table",
+"block.vct.rue_eucalyptus_crafting_table": "Eucalyptus Crafting Table",
+"block.vct.rue_joshua_crafting_table": "Joshua Crafting Table",
+"block.vct.rue_larch_crafting_table": "Larch Crafting Table",
+"block.vct.rue_maple_crafting_table": "Maple Crafting Table",
+"block.vct.rue_mauve_crafting_table": "Mauve Crafting Table",
+"block.vct.rue_palm_crafting_table": "Palm Crafting Table",
+"block.vct.rue_pine_crafting_table": "Pine Crafting Table",
+"block.vct.rue_redwood_crafting_table": "Redwood Crafting Table",
+"block.vct.rue_willow_crafting_table": "Willow Crafting Table",
 
 "block.vct.sg_netherwood_crafting_table": "Netherwood Crafting Table",
 
@@ -219,17 +251,21 @@
 
 "item.vct.brown_mushroom_crafting_table_minecart": "Minecart with Brown Mushroom Crafting Table",
 "item.vct.red_mushroom_crafting_table_minecart": "Minecart with Red Mushroom Crafting Table",
-"item.vct.glowshroom_crafting_table_minecart": "Minecart with Glowshroom Crafting Table",
 
 "item.vct.twisted_crafting_table_minecart": "Minecart with Twisted Crafting Table",
 
+"item.vct.archwood_crafting_table_minecart": "Minecart with Archwood Crafting Table",
+
 "item.vct.ash_crafting_table_minecart": "Minecart with Ash Crafting Table",
+"item.vct.gourdrot_crafting_table_minecart": "Minecart with Gourdrot Crafting Table",
 
 "item.vct.aeronos_crafting_table_minecart": "Minecart with Aeronos Crafting Table",
 "item.vct.glacian_crafting_table_minecart": "Minecart with Glacian Crafting Table",
 "item.vct.strophar_crafting_table_minecart": "Minecart with Strophar Crafting Table",
 
 "item.vct.twisted_crafting_table_minecart": "Minecart with Twisted Crafting Table",
+
+"item.vct.twisted_crafting_table_minecart": "Minecart with Archwood Crafting Table",
 
 "item.vct.bm_ancient_oak_crafting_table_minecart": "Minecart with Ancient Oak Crafting Table",
 "item.vct.bm_blighted_balsa_crafting_table_minecart": "Minecart with Blighted Balsa Crafting Table",
@@ -261,21 +297,32 @@
 "item.vct.ebony_crafting_table_minecart": "Minecart with Ebony Crafting Table",
 "item.vct.pream_crafting_table_minecart": "Minecart with Pream Crafting Table",
 
-"item.vct.cerulean_crafting_table_minecart": "Minecart with Cerulean Crafting Table (Legacy)",
-"item.vct.cosmic_crafting_table_minecart": "Minecart with Cosmic Crafting Table (Legacy)",
-"item.vct.seldge_crafting_table_minecart": "Minecart with Congealed Crafting Table",
-"item.vct.stalk_crafting_table_minecart": "Minecart with Stalk Crafting Table (Legacy)",
+"item.vct.congealed_crafting_table_minecart": "Minecart with Congealed Crafting Table",
 "item.vct.verdant_crafting_table_minecart": "Minecart with Ebony Crafting Table",
 
-"item.vct.edelwood_crafting_table_minecart": "Minecart with Arcane Edelwood Crafting Table",
+"item.vct.mushroom_crafting_table_minecart": "Minecart with Mushroom Crafting Table",
+"item.vct.poisonous_mushroom_crafting_table_minecart": "Minecart with Poisonous Mushroom Crafting Table",
+"item.vct.honey_fungus_crafting_table_minecart": "Minecart with Honey Fungus Crafting Table",
+"item.vct.glowshroom_crafting_table_minecart": "Minecart with Glowshroom Crafting Table",
+
+"item.vct.arcane_edelwood_crafting_table_minecart": "Minecart with Arcane Edelwood Crafting Table",
 "item.vct.cherrywood_crafting_table_minecart": "Minecart with Cherry Crafting Table",
 "item.vct.edelwood_crafting_table_minecart": "Minecart with Edelwood Crafting Table",
 "item.vct.fungyss_crafting_table_minecart": "Minecart with Fungyss Crafting Table",
-"item.vct.mysterywood_crafting_table_minecart": "Minecart with Aurum Crafting Table",
+"item.vct.aurum_crafting_table_minecart": "Minecart with Aurum Crafting Table",
+
+"item.vct.ft_cherry_crafting_table_minecart": "Minecart with Cherry Crafting Table",
+"item.vct.ft_citrus_crafting_table_minecart": "Minecart with Citrus Crafting Table",
+
+"item.vct.soulblight_crafting_table_minecart": "Minecart with Soulblight Crafting Table",
+"item.vct.whistlecane_crafting_table_minecart": "Minecart with Whistlecane Crafting Table",
+
+"item.vct.ge_cypress_crafting_table_minecart": "Minecart with Cypress Crafting Table",
+"item.vct.ge_muddy_oak_crafting_table_minecart": "Minecart with Muddy Oak Crafting Table",
 
 "item.vct.fairy_ring_mushroom_crafting_table_minecart": "Minecart with Fairy Ring Mushroom Crafting Table",
 
-"item.vct.akashic_crafting_table_minecart": "Minecart with Edified Crafting Table",
+"item.vct.edified_crafting_table_minecart": "Minecart with Edified Crafting Table",
 
 "item.vct.hexerei_mahogany_crafting_table_minecart": "Minecart with Mahogany Crafting Table",
 "item.vct.hexerei_willow_crafting_table_minecart": "Minecart with Willow Crafting Table",
@@ -300,8 +347,27 @@
 "item.vct.protopiceoxylon_crafting_table_minecart": "Minecart with Protopiceoxylon Crafting Table",
 "item.vct.zamites_crafting_table_minecart": "Minecart with Zamites Crafting Table",
 
+"item.vct.pyrowood_crafting_table_minecart": "Minecart with Pyrowood Crafting Table",
+"item.vct.rotten_planks_crafting_table_minecart": "Minecart with Rotten Planks Crafting Table",
+
+"item.vct.quark_ancient_crafting_table_minecart": "Minecart with Ancient Crafting Table",
 "item.vct.quark_azalea_crafting_table_minecart": "Minecart with Azalea Crafting Table",
 "item.vct.quark_blossom_crafting_table_minecart": "Minecart with Blossom Crafting Table",
+
+"item.vct.rue_baobab_crafting_table_minecart": "Minecart with Baobab Crafting Table",
+"item.vct.rue_blackwood_crafting_table_minecart": "Minecart with Blackwood Crafting Table",
+"item.vct.rue_cherry_crafting_table_minecart": "Minecart with Cherry Crafting Table",
+"item.vct.rue_cypress_crafting_table_minecart": "Minecart with Cypress Crafting Table",
+"item.vct.rue_dead_crafting_table_minecart": "Minecart with Dead Crafting Table",
+"item.vct.rue_eucalyptus_crafting_table_minecart": "Minecart with Eucalyptus Crafting Table",
+"item.vct.rue_joshua_crafting_table_minecart": "Minecart with Joshua Crafting Table",
+"item.vct.rue_larch_crafting_table_minecart": "Minecart with Larch Crafting Table",
+"item.vct.rue_maple_crafting_table_minecart": "Minecart with Maple Crafting Table",
+"item.vct.rue_mauve_crafting_table_minecart": "Minecart with Mauve Crafting Table",
+"item.vct.rue_palm_crafting_table_minecart": "Minecart with Palm Crafting Table",
+"item.vct.rue_pine_crafting_table_minecart": "Minecart with Pine Crafting Table",
+"item.vct.rue_redwood_crafting_table_minecart": "Minecart with Redwood Crafting Table",
+"item.vct.rue_willow_crafting_table_minecart": "Minecart with Willow Crafting Table",
 
 "item.vct.sg_netherwood_crafting_table_minecart": "Minecart with Netherwood Crafting Table",
 
