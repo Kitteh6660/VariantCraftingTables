@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "vct:petrified_crafting_table"
+    {"id": "vct:petrified_crafting_table", "required": false}
   ]
 }

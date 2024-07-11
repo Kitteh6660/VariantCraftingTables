@@ -1,26 +1,33 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "minecart_with_crafting_table",
-  "pattern": [
-    "X",
-    "#"
-  ],
-  "key": {
-    "X": {
-      "item": "vct:glowshroom_crafting_table"
-    },
-    "#": {
-      "item": "minecraft:minecart"
-    }
-  },
-  "result": {
-    "item": "vct:glowshroom_crafting_table_minecart",
-    "count": 1
-  },
-  "conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "enhanced_mushrooms"
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "minecart_with_crafting_table",
+        "pattern": [
+          "X",
+          "#"
+        ],
+        "key": {
+          "X": {
+            "item": "vct:glowshroom_crafting_table"
+          },
+          "#": {
+            "item": "minecraft:minecart"
+          }
+        },
+        "result": {
+          "item": "vct:glowshroom_crafting_table_minecart",
+          "count": 1
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enhanced_mushrooms"
+        }
+      ]
     }
   ]
 }

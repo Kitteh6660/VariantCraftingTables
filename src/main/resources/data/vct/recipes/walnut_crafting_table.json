@@ -1,22 +1,29 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "crafting_table",
-  "pattern": [
-    "##",
-    "##"
-  ],
-  "key": {
-    "#": {
-      "item": "caupona:walnut_planks"
-    }
-  },
-  "result": {
-    "item": "vct:walnut_crafting_table"
-  },
-  "conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "caupona"
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "crafting_table",
+        "pattern": [
+          "##",
+          "##"
+        ],
+        "key": {
+          "#": {
+            "item": "caupona:walnut_planks"
+          }
+        },
+        "result": {
+          "item": "vct:walnut_crafting_table"
+        }
+      },
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "caupona"
+        }
+      ]
     }
   ]
 }
