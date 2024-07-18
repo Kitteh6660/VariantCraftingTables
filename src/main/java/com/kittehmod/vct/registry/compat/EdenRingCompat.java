@@ -1,5 +1,6 @@
 package com.kittehmod.vct.registry.compat;
 
+import com.kittehmod.vct.registry.VCTNames;
 import com.kittehmod.vct.registry.VCTRegistry;
 
 import net.minecraft.world.level.block.Block;
@@ -9,8 +10,9 @@ import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 public class EdenRingCompat 
 {
 	public static void registerCompat() {
-		VCTRegistry.registerCraftingTable("fiery_planks_crafting_table", Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
-		VCTRegistry.registerCraftingTable("glaciated_planks_crafting_table", Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
-		VCTRegistry.registerCraftingTable("lavic_planks_crafting_table", Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
+		VCTRegistry.registerCraftingTable(VCTNames.AURITIS, Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
+		VCTRegistry.registerCraftingTable(VCTNames.BALLOON_MUSHROOM, Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
+		VCTRegistry.registerCraftingTable(VCTNames.BRAIN_TREE, Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
+		VCTRegistry.registerCraftingTable(VCTNames.PULSE_TREE, Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
 	}
 }

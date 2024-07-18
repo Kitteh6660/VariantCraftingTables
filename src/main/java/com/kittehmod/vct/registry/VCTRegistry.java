@@ -38,7 +38,7 @@ public class VCTRegistry
 	public static final Item.Properties PROPERTIES = new Item.Properties();
 	
 	public static void registerVanilla() {
-		// Add minecart for vanilla crafting table.
+		// Add minecart for oak (vanilla) crafting table.
 		CRAFTING_TABLE_MINECARTS.add(new Pair<String, Item>("oak_crafting_table_minecart", new CraftingTableMinecartItem(PROPERTIES, (CraftingTableBlock)Blocks.CRAFTING_TABLE)));
 		// Add blocks
 		VCTRegistry.registerCraftingTable(VCTNames.SPRUCE, Block.Properties.of().mapColor(MapColor.PODZOL).instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));

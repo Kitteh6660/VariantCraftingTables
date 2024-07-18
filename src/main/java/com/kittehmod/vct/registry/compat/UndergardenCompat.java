@@ -1,5 +1,6 @@
 package com.kittehmod.vct.registry.compat;
 
+import com.kittehmod.vct.registry.VCTNames;
 import com.kittehmod.vct.registry.VCTRegistry;
 
 import net.minecraft.world.level.block.Block;
@@ -9,8 +10,8 @@ import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 public class UndergardenCompat 
 {
 	public static void registerCompat() {
-	 	VCTRegistry.registerCraftingTable("grongle_crafting_table", Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
-	 	VCTRegistry.registerCraftingTable("smogstem_crafting_table", Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
-	 	VCTRegistry.registerCraftingTable("wigglewood_crafting_table", Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
+	 	VCTRegistry.registerCraftingTable(VCTNames.GRONGLE, Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
+	 	VCTRegistry.registerCraftingTable(VCTNames.SMOGSTEM, Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
+	 	VCTRegistry.registerCraftingTable(VCTNames.WIGGLEWOOD, Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
 	}
 }

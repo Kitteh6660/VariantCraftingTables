@@ -7,179 +7,187 @@ import net.minecraftforge.fml.ModList;
 public class VCTCompats 
 {
 	public static void registerCompats() {
-		if (ModList.get().isLoaded("blueprint")) {
+		if (checkModLoaded("blueprint")) {
 			AbnormalsCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("abundant_atmosphere")) {
+		if (checkModLoaded("abundant_atmosphere")) {
 			AbundantAtmosphereCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("ad_astra")) {
+		if (checkModLoaded("ad_astra")) {
 			AdAstraCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("aether")) {
+		if (checkModLoaded("aether")) {
 			AetherCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("aether_redux")) {
+		if (checkModLoaded("aether_redux")) {
 			AetherReduxCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("alexscaves")) {
+		if (checkModLoaded("alexscaves")) {
 			AlexsCavesCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("architects_palette")) {
+		if (checkModLoaded("architects_palette")) {
 			ArchitectsPaletteCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("ars_nouveau")) {
+		if (checkModLoaded("ars_nouveau")) {
 			ArsNouveauCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("atum")) {
+		if (checkModLoaded("atum")) {
 			AtumCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("better_archeology")) {
+		if (checkModLoaded("better_archeology")) {
 			BetterArchaeologyCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("biomemakeover")) {
+		if (checkModLoaded("bewitchment")) {
+			BewitchmentCompat.registerCompat();
+		}
+		if (checkModLoaded("biomemakeover")) {
 			BiomeMakeoverCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("biomesoplenty")) {
+		if (checkModLoaded("biomesoplenty")) {
 			BiomesOPlentyCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("bloomingnature")) {
+		if (checkModLoaded("bloomingnature")) {
 			BloomingNatureCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("caupona")) {
+		if (checkModLoaded("caupona")) {
 			CauponaCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("ceilands")) {
+		if (checkModLoaded("ceilands")) {
 			CeilandsCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("cobblemon")) {
+		if (checkModLoaded("cobblemon")) {
 			CobblemonCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("colorfulazaleas")) {
+		if (checkModLoaded("colorfulazaleas")) {
 			ColorfulAzaleasCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("darkerdepths")) {
+		if (checkModLoaded("darkerdepths")) {
 			DarkerDepthsCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("deepaether")) {
+		if (checkModLoaded("deepaether")) {
 			DeepAetherCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("deeperdarker")) {
+		if (checkModLoaded("deeperdarker")) {
 			DeeperDarkerCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("ecologics")) {
+		if (checkModLoaded("ecologics")) {
 			EcologicsCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("edenring")) {
+		if (checkModLoaded("edenring")) {
 			EdenRingCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("eldritch_end")) {
+		if (checkModLoaded("eldritch_end")) {
 			EldritchEndCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("phantasm")) {
+		if (checkModLoaded("phantasm")) {
 			EndsPhantasmCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("endlessbiomes")) {
+		if (checkModLoaded("endlessbiomes")) {
 			EndlessBiomesCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("enhanced_mushrooms")) {
+		if (checkModLoaded("enhanced_mushrooms")) {
 			EnhancedMushroomsCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("enlightened_end")) {
+		if (checkModLoaded("enlightened_end")) {
 			EnlightenedEndCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("extendedmushrooms")) {
+		if (checkModLoaded("extendedmushrooms")) {
 			ExtendedMushroomsCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("forbidden_arcanus")) {
+		if (checkModLoaded("forbidden_arcanus")) {
 			ForbiddenArcanusCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("fruitfulfun")) {
+		if (checkModLoaded("fruitfulfun")) {
 			FruitfulFunCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("gardens_of_the_dead")) {
+		if (checkModLoaded("gardens_of_the_dead")) {
 			GardensOfTheDeadCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("goodending")) {
+		if (checkModLoaded("goodending")) {
 			GoodEndingCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("habitat")) {
+		if (checkModLoaded("habitat")) {
 			HabitatCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("hexcasting")) {
+		if (checkModLoaded("hexcasting")) {
 			HexcastingCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("hexerei")) {
+		if (checkModLoaded("hexerei")) {
 			HexereiCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("horizons")) {
+		if (checkModLoaded("horizons")) {
 			HorizonsCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("integrateddynamics")) {
+		if (checkModLoaded("integrateddynamics")) {
 			IntegratedDynamicsCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("malum")) {
+		if (checkModLoaded("malum")) {
 			MalumCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("minestuck")) {
+		if (checkModLoaded("minestuck")) {
 			MinestuckCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("morecraft")) {
+		if (checkModLoaded("morecraft")) {
 			MorecraftCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("mynethersdelight")) {
+		if (checkModLoaded("mynethersdelight")) {
 			MyNethersDelightCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("naturespirit")) {
+		if (checkModLoaded("naturespirit")) {
 			NaturesSpiritCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("nethers_exoticism")) {
+		if (checkModLoaded("nethers_exoticism")) {
 			NethersExoticismCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("newworld")) {
+		if (checkModLoaded("newworld")) {
 			NewWorldCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("outer_end")) {
+		if (checkModLoaded("outer_end")) {
 			OuterEndCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("prehistoricfauna")) {
+		if (checkModLoaded("prehistoricfauna")) {
 			PrehistoricFaunaCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("pyromancer")) {
+		if (checkModLoaded("pyromancer")) {
 			PyromancerCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("quark")) {
+		if (checkModLoaded("quark")) {
 			QuarkCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("regions_unexplored")) {
+		if (checkModLoaded("regions_unexplored")) {
 			RegionsUnexploredCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("silentgear")) {
+		if (checkModLoaded("silentgear")) {
 			SilentGearCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("flyingstuff")) {
+		if (checkModLoaded("flyingstuff")) {
 			SkyLandsCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("snowyspirit")) {
+		if (checkModLoaded("snowyspirit")) {
 			SnowySpiritCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("tconstruct")) {
+		if (checkModLoaded("tconstruct")) {
 			TinkersConstructCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("twigs")) {
+		if (checkModLoaded("twigs")) {
 			TwigsCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("twilightforest")) {
+		if (checkModLoaded("twilightforest")) {
 			TwilightForestCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("undergarden")) {
+		if (checkModLoaded("undergarden")) {
 			UndergardenCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("vinery")) {
+		if (checkModLoaded("vinery")) {
 			VineryCompat.registerCompat();
 		}
-		if (ModList.get().isLoaded("windswept")) {
+		if (checkModLoaded("windswept")) {
 			WindsweptCompat.registerCompat();
 		}
+	}
+	
+	public static boolean checkModLoaded(String modid) {
+		return true; // Currently returns true until a solution for block loot can be found.
+		// return ModList.get().isLoaded(modid);
 	}
 }

@@ -1,5 +1,6 @@
 package com.kittehmod.vct.registry.compat;
 
+import com.kittehmod.vct.registry.VCTNames;
 import com.kittehmod.vct.registry.VCTRegistry;
 
 import net.minecraft.world.level.block.Block;
@@ -9,8 +10,8 @@ import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 public class AdAstraCompat 
 {
 	public static void registerCompat() {
-	  	VCTRegistry.registerCraftingTable("aeronos_crafting_table", Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
-	  	VCTRegistry.registerCraftingTable("glacian_crafting_table", Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
-	  	VCTRegistry.registerCraftingTable("strophar_crafting_table", Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
+	  	VCTRegistry.registerCraftingTable(VCTNames.AERONOS, Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
+	  	VCTRegistry.registerCraftingTable(VCTNames.GLACIAN, Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
+	  	VCTRegistry.registerCraftingTable(VCTNames.STROPHAR, Block.Properties.of().instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(SoundType.WOOD));
 	}
 }
